@@ -1,0 +1,49 @@
+#,User Story,Ruta (verbo + path),Controller#Action,Prioridad,Fase Roadmap,Módulo
+1,Como dev configuro Rails con PostgreSQL y template Le Wagon,[Setup],rails new + config,P0,Fase 0 - Setup,Setup
+2,Como dev hago el primer commit con app vacía,[Git],git init + commit,P0,Fase 0 - Setup,Setup
+3,Como sistema existe el modelo Champion con name y champion_id,[Rails Model],champion.rb,P0,Fase 1 - Modelo Base,Campeones
+4,Como sistema Champion tiene campos title e image_url,[Rails Model],champion.rb (fields),P0,Fase 1 - Modelo Base,Campeones
+5,Como sistema Champion tiene validaciones de name y champion_id,[Rails Model],champion.rb (validations),P0,Fase 1 - Modelo Base,Campeones
+6,Como dev cargo 167 campeones desde Riot Data Dragon API en seeds,"[Seeds]",seeds.rb (find_or_create_by),P0,Fase 1 - Modelo Base,Campeones
+7,Como dev verifico campeones cargados en rails console,[Console],rails console,P0,Fase 1 - Modelo Base,Campeones
+8,Como usuario veo el formulario principal de matchup,GET /,matchups#index,P0,Fase 2 - Formulario,Matchup
+9,Como usuario selecciono mi rol (Top/Jungle/Mid/ADC/Supp),GET /,matchups#index (select your_role),P0,Fase 2 - Formulario,Matchup
+10,Como usuario selecciono 5 campeones enemigos (uno por rol),GET /,matchups#index (select enemies[]),P0,Fase 2 - Formulario,Matchup
+11,Como usuario selecciono 5 campeones aliados (uno por rol),GET /,matchups#index (select allies[]),P0,Fase 2 - Formulario,Matchup
+12,Como usuario selecciono mi pool de 3 campeones,GET /,matchups#index (select pool[]),P0,Fase 2 - Formulario,Matchup
+13,Como usuario envío el formulario de matchup,POST /recommendations,recommendations#create,P0,Fase 2 - Formulario,Matchup
+14,Como dev verifico que los params llegan correctamente al controller,[Debug],recommendations#create (raise),P0,Fase 2 - Formulario,Matchup
+15,Como usuario al elegir mi rol se oculta el ally select de ese rol,[Stimulus],matchup_controller.js#hideAlly,P0,Fase 3 - Stimulus,Stimulus
+16,Como sistema el Stimulus controller conecta correctamente,[Stimulus],matchup_controller.js#connect,P0,Fase 3 - Stimulus,Stimulus
+17,Como sistema la gema anthropic está instalada y configurada,[Setup],Gemfile + initializer,P0,Fase 4 - Claude API,Claude API
+18,Como sistema se arma el prompt dinámico con rol + enemigos + aliados + pool,[Service/Controller],recommendations#create (prompt),P0,Fase 4 - Claude API,Claude API
+19,Como sistema se envía el prompt a la API de Claude,[Service/Controller],recommendations#create (api call),P0,Fase 4 - Claude API,Claude API
+20,Como sistema se recibe y parsea la respuesta de Claude,[Service/Controller],recommendations#create (response),P0,Fase 4 - Claude API,Claude API
+21,Como usuario veo la recomendación de Claude en la página,POST /recommendations,recommendations#create (render),P0,Fase 5 - Respuesta,Vista
+22,Como sistema la respuesta se muestra con Turbo Stream sin reload,POST /recommendations,[Turbo Stream],P0,Fase 5 - Respuesta,Vista
+23,Como usuario veo el div#claude-response con la recomendación,GET /,matchups#index (turbo frame),P0,Fase 5 - Respuesta,Vista
+24,Como usuario los selects tienen autocompletado con Tom Select,[JS],matchup_controller.js (Tom Select),P1,Fase 6 - UX,Tom Select
+25,Como usuario veo imágenes de campeones en los dropdowns,[JS],Tom Select (render option),P1,Fase 6 - UX,Tom Select
+26,Como usuario veo el formulario en dos columnas (aliados izq / enemigos der),[CSS],matchups/index.html.erb (Bootstrap),P1,Fase 6 - UX,Diseño
+27,Como usuario veo imágenes de campeones junto a los selects,[CSS],matchups/index.html.erb (images),P1,Fase 6 - UX,Diseño
+28,Como visitante me registro en la plataforma,GET /users/sign_up,devise/registrations#new,P1,Fase 7 - Auth,Auth
+29,Como visitante envío el formulario de registro,POST /users,devise/registrations#create,P1,Fase 7 - Auth,Auth
+30,Como visitante inicio sesión,GET /users/sign_in,devise/sessions#new,P1,Fase 7 - Auth,Auth
+31,Como visitante envío el formulario de login,POST /users/sign_in,devise/sessions#create,P1,Fase 7 - Auth,Auth
+32,Como usuario cierro sesión,DELETE /users/sign_out,devise/sessions#destroy,P1,Fase 7 - Auth,Auth
+33,Como sistema existe el modelo Consultation con your_role y claude_response,[Rails Model],consultation.rb,P1,Fase 8 - Historial,Historial
+34,Como sistema Consultation pertenece a User (belongs_to),[Rails Model],consultation.rb (associations),P1,Fase 8 - Historial,Historial
+35,Como sistema existe ConsultationChampion con consultation_id + champion_id + role,[Rails Model],consultation_champion.rb,P1,Fase 8 - Historial,Historial
+36,Como sistema ConsultationChampion conecta campeones con consultas (join table),[Rails Model],consultation_champion.rb (associations),P1,Fase 8 - Historial,Historial
+37,Como sistema al crear una recomendación se persiste la consulta en DB,[Controller],recommendations#create (save),P1,Fase 8 - Historial,Historial
+38,Como usuario veo mi historial de consultas,GET /consultations,consultations#index,P1,Fase 8 - Historial,Historial
+39,Como usuario veo el detalle de una consulta pasada,GET /consultations/:id,consultations#show,P1,Fase 8 - Historial,Historial
+40,Como sistema existe el modelo Rune con name + rune_id + image_url + tree,[Rails Model],rune.rb,P2,Fase 9 - Runas,Runas
+41,Como dev cargo las runas desde Riot Data Dragon API en seeds,[Seeds],seeds.rb (runes),P2,Fase 9 - Runas,Runas
+42,Como sistema existe RuneRecommendation con consultation_id + rune_id + slot,[Rails Model],rune_recommendation.rb,P2,Fase 9 - Runas,Runas
+43,Como sistema Claude recomienda runas además del campeón,[Service/Controller],recommendations#create (runes prompt),P2,Fase 9 - Runas,Runas
+44,Como usuario veo las runas recomendadas en la respuesta,POST /recommendations,recommendations#create (runes view),P2,Fase 9 - Runas,Runas
+45,Como sistema existe UserMastery con user_id + champion_id + mastery_level + mastery_points,[Rails Model],user_mastery.rb,P2,Fase 10 - Maestría,Maestría
+46,Como sistema se obtiene la maestría del usuario desde Riot API,[Service],riot_api_service.rb (mastery),P2,Fase 10 - Maestría,Maestría
+47,Como usuario vinculo mi cuenta de Riot para importar maestría,PATCH /profile/riot_account,profiles#link_riot,P2,Fase 10 - Maestría,Maestría
+48,Como sistema Claude considera la maestría del usuario en la recomendación,[Service/Controller],recommendations#create (mastery context),P2,Fase 10 - Maestría,Maestría

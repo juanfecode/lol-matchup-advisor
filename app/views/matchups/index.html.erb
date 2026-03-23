@@ -27,36 +27,35 @@
                 {prompt: "Enemy Support"}, 
                 { name: "enemies[]" } %>
 
-    <%= f.select :allies, 
-                @champions.map { |c| [c.name, c.name] }, 
-                {prompt: "Ally Top"}, 
-                { name: "allies[]", data: { role: "top" } },
+    <%= f.select :allies,
+                @champions.map { |c| [c.name, c.name] },
+                {prompt: "Ally Top"},
+                { name: "allies[]", data: { role: "top" } }
                 %>
-    <%= f.select :allies, 
-                @champions.map { |c| [c.name, c.name] }, 
-                {prompt: "Ally Jungle"}, 
-                { name: "allies[]", data: { role: "jungle" } },
+    <%= f.select :allies,
+                @champions.map { |c| [c.name, c.name] },
+                {prompt: "Ally Jungle"},
+                { name: "allies[]", data: { role: "jungle" } }
                 %>
-    <%= f.select :allies, 
-                @champions.map { |c| [c.name, c.name] }, 
-                {prompt: "Ally Mid"}, 
-                { name: "allies[]", data: { role: "mid" } },
+    <%= f.select :allies,
+                @champions.map { |c| [c.name, c.name] },
+                {prompt: "Ally Mid"},
+                { name: "allies[]", data: { role: "mid" } }
                 %>
-    <%= f.select :allies, 
-                @champions.map { |c| [c.name, c.name] }, 
-                {prompt: "Ally Adc"}, 
-                { name: "allies[]", data: { role: "adc" } },
+    <%= f.select :allies,
+                @champions.map { |c| [c.name, c.name] },
+                {prompt: "Ally Adc"},
+                { name: "allies[]", data: { role: "adc" } }
                 %>
-    <%= f.select :allies, 
-                @champions.map { |c| [c.name, c.name] }, 
-                {prompt: "Ally Support"}, 
-                { name: "allies[]", data: { role: "supp" } },
+    <%= f.select :allies,
+                @champions.map { |c| [c.name, c.name] },
+                {prompt: "Ally Support"},
+                { name: "allies[]", data: { role: "supp" } }
                 %>
-
     <%= f.select :pool, 
                 @champions.map { |c| [c.name, c.name] }, 
                 {prompt: "Champion Pool"}, 
-                { name: "pool[]" },
+                { name: "pool[]" }
                  %>
 
     <%= f.select :pool, 
