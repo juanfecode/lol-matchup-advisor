@@ -7,3 +7,19 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+require 'open-uri'
+require 'json'
+
+url = "https://ddragon.leagueoflegends.com/cdn/14.6.1/data/en_US/champion.json"
+data = JSON.parse(URI.open(url).read)
+
+data["data"].each do |key, champion|
+  Champion.find_or_create_by(champion_id: champion["id"]) do |c|
+    c.name = champion ["name"]
+    c.title = champion ["title"]
+    c.image_url = "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/champion/#{champion["image"]["full"]}"
+  end
+end
+
+puts "Cargados #{Champion.count} campeones!"

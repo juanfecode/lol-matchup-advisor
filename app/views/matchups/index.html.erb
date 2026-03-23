@@ -1,0 +1,71 @@
+<%= form_with url: recommendations_path, method: :post, data: { controller: "matchup" } do |f| %>
+    <%=f.select :your_role, [["Top", "top"], 
+                             ["Jungle", "jungle"], 
+                             ["Mid", "mid"], 
+                             ["Adc", "adc"], 
+                             ["Supp", "supp"] ], 
+                {prompt: "Escoje tu rol"}, 
+                { class: "form-select", data: {action: "change->matchup#hideAlly"} }%>
+    <%= f.select :enemies, 
+                @champions.map { |c| [c.name, c.name] }, 
+                {prompt: "Enemy Top"}, 
+                { name: "enemies[]" } %>
+    <%= f.select :enemies, 
+                @champions.map { |c| [c.name, c.name] }, 
+                {prompt: "Enemy Jungle"}, 
+                { name: "enemies[]" } %>
+    <%= f.select :enemies, 
+                @champions.map { |c| [c.name, c.name] }, 
+                {prompt: "Enemy Mid"}, 
+                { name: "enemies[]" } %>
+    <%= f.select :enemies, 
+                @champions.map { |c| [c.name, c.name] }, 
+                {prompt: "Enemy Adc"}, 
+                { name: "enemies[]" } %>
+    <%= f.select :enemies, 
+                @champions.map { |c| [c.name, c.name] }, 
+                {prompt: "Enemy Support"}, 
+                { name: "enemies[]" } %>
+
+    <%= f.select :allies, 
+                @champions.map { |c| [c.name, c.name] }, 
+                {prompt: "Ally Top"}, 
+                { name: "allies[]", data: { role: "top" } },
+                %>
+    <%= f.select :allies, 
+                @champions.map { |c| [c.name, c.name] }, 
+                {prompt: "Ally Jungle"}, 
+                { name: "allies[]", data: { role: "jungle" } },
+                %>
+    <%= f.select :allies, 
+                @champions.map { |c| [c.name, c.name] }, 
+                {prompt: "Ally Mid"}, 
+                { name: "allies[]", data: { role: "mid" } },
+                %>
+    <%= f.select :allies, 
+                @champions.map { |c| [c.name, c.name] }, 
+                {prompt: "Ally Adc"}, 
+                { name: "allies[]", data: { role: "adc" } },
+                %>
+    <%= f.select :allies, 
+                @champions.map { |c| [c.name, c.name] }, 
+                {prompt: "Ally Support"}, 
+                { name: "allies[]", data: { role: "supp" } },
+                %>
+
+    <%= f.select :pool, 
+                @champions.map { |c| [c.name, c.name] }, 
+                {prompt: "Champion Pool"}, 
+                { name: "pool[]" },
+                 %>
+
+    <%= f.select :pool, 
+                @champions.map { |c| [c.name, c.name] }, 
+                {prompt: "Champion Pool"}, 
+                { name: "pool[]" } %>
+    <%= f.select :pool, 
+                @champions.map { |c| [c.name, c.name] }, 
+                {prompt: "Champion Pool"}, 
+                { name: "pool[]" } %>
+    <%= f.submit "Crear" %>
+<% end %>
