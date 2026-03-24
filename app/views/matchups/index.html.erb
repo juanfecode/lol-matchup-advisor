@@ -1,72 +1,140 @@
-<%= form_with url: recommendations_path, method: :post, data: { controller: "matchup" } do |f| %>
-    <%=f.select :your_role, [["Top", "top"], 
-                             ["Jungle", "jungle"], 
-                             ["Mid", "mid"], 
-                             ["Adc", "adc"], 
-                             ["Supp", "supp"] ], 
-                {prompt: "Escoje tu rol"}, 
-                { class: "form-select", data: {action: "change->matchup#hideAlly"} }%>
-    <%= f.select :enemies, 
-                @champions.map { |c| [c.name, c.name] }, 
-                {prompt: "Enemy Top"}, 
-                { name: "enemies[]" } %>
-    <%= f.select :enemies, 
-                @champions.map { |c| [c.name, c.name] }, 
-                {prompt: "Enemy Jungle"}, 
-                { name: "enemies[]" } %>
-    <%= f.select :enemies, 
-                @champions.map { |c| [c.name, c.name] }, 
-                {prompt: "Enemy Mid"}, 
-                { name: "enemies[]" } %>
-    <%= f.select :enemies, 
-                @champions.map { |c| [c.name, c.name] }, 
-                {prompt: "Enemy Adc"}, 
-                { name: "enemies[]" } %>
-    <%= f.select :enemies, 
-                @champions.map { |c| [c.name, c.name] }, 
-                {prompt: "Enemy Support"}, 
-                { name: "enemies[]" } %>
+<%= form_with url: recommendations_path, method: :post,
+    data: { controller: "matchup", matchup_images_value: @champion_images.to_json },
+    class: "w-full max-w-7xl" do |f| %>
 
-    <%= f.select :allies,
-                @champions.map { |c| [c.name, c.name] },
-                {prompt: "Ally Top"},
-                { name: "allies[]", data: { role: "top" } }
-                %>
-    <%= f.select :allies,
-                @champions.map { |c| [c.name, c.name] },
-                {prompt: "Ally Jungle"},
-                { name: "allies[]", data: { role: "jungle" } }
-                %>
-    <%= f.select :allies,
-                @champions.map { |c| [c.name, c.name] },
-                {prompt: "Ally Mid"},
-                { name: "allies[]", data: { role: "mid" } }
-                %>
-    <%= f.select :allies,
-                @champions.map { |c| [c.name, c.name] },
-                {prompt: "Ally Adc"},
-                { name: "allies[]", data: { role: "adc" } }
-                %>
-    <%= f.select :allies,
-                @champions.map { |c| [c.name, c.name] },
-                {prompt: "Ally Support"},
-                { name: "allies[]", data: { role: "supp" } }
-                %>
-    <%= f.select :pool, 
-                @champions.map { |c| [c.name, c.name] }, 
-                {prompt: "Champion Pool"}, 
-                { name: "pool[]" }
-                 %>
+  <!-- Header -->
+  <header class="text-center mb-8">
+    <h2 class="font-headline text-xs tracking-[0.3em] text-primary-container mb-2 uppercase">Matchup Analysis</h2>
+    <h1 class="font-headline text-4xl md:text-5xl font-extrabold text-primary tracking-tighter italic">CHAMPION SELECT</h1>
+  </header>
 
-    <%= f.select :pool, 
-                @champions.map { |c| [c.name, c.name] }, 
-                {prompt: "Champion Pool"}, 
-                { name: "pool[]" } %>
-    <%= f.select :pool, 
-                @champions.map { |c| [c.name, c.name] }, 
-                {prompt: "Champion Pool"}, 
-                { name: "pool[]" } %>
-    <%= f.submit "Crear" %>
+  <!-- Role Selector -->
+  <div class="flex justify-center mb-10">
+    <div class="flex space-x-1 bg-surface-container-low p-2 gold-trim">
+      <% [["Top", "top", "stat_3"], ["Jungle", "jungle", "forest"], ["Mid", "mid", "adjust"], ["ADC", "adc", "ads_click"], ["Support", "supp", "support"]].each do |label, value, icon| %>
+        <label class="cursor-pointer">
+          <%= f.radio_button :your_role, value, class: "hidden peer", data: { action: "change->matchup#hideAlly" } %>
+          <span class="peer-checked:bg-primary peer-checked:text-on-primary px-5 py-3 hover:bg-surface-container-highest transition-colors text-primary-container font-label font-bold text-sm tracking-widest flex items-center space-x-2">
+            <span class="material-symbols-outlined text-sm"><%= icon %></span>
+            <span><%= label.upcase %></span>
+          </span>
+        </label>
+      <% end %>
+    </div>
+  </div>
+
+  <!-- Two Column Layout: Allies | Center | Enemies -->
+  <div class="grid grid-cols-12 gap-4 items-start">
+
+    <!-- Ally Team (Left) -->
+    <div class="col-span-3 space-y-5">
+      <h3 class="font-headline text-ally-teal text-sm tracking-widest mb-4 flex items-center">
+        <span class="w-8 h-[1px] bg-ally-teal mr-2"></span> ALLY TEAM
+      </h3>
+      <% [["Top", "top", "stat_3"], ["Jungle", "jungle", "forest"], ["Mid", "mid", "adjust"], ["ADC", "adc", "ads_click"], ["Support", "supp", "support"]].each do |label, role, icon| %>
+        <div class="champion-row flex items-center space-x-3 group" data-role="<%= role %>">
+          <div class="relative w-14 h-14 shrink-0 cursor-pointer" data-action="click->matchup#openSelect">
+            <!-- Placeholder icon -->
+            <div class="champion-placeholder w-14 h-14 rounded-full border-2 border-dashed border-outline-variant flex items-center justify-center bg-surface-container-lowest transition-all duration-300 hover:border-ally-teal/60">
+              <span class="material-symbols-outlined text-outline"><%= icon %></span>
+            </div>
+            <!-- Champion portrait (hidden initially) -->
+            <img class="champion-portrait hidden opacity-0 scale-75 absolute inset-0 w-14 h-14 rounded-full object-cover champion-portrait-glow-ally transition-all duration-500" src="" alt="">
+          </div>
+          <div class="flex-1">
+            <div class="text-[10px] font-label text-ally-teal mb-1 uppercase"><%= label %></div>
+            <%= f.select :allies, @champions.map { |c| [c.name, c.name] },
+                {prompt: "Select Champion..."},
+                { name: "allies[]", data: { role: role, action: "change->matchup#updatePortrait" },
+                  class: "w-full bg-surface-container text-xs font-body border-b border-outline-variant focus:border-ally-teal focus:ring-0 py-1 px-0 appearance-none text-on-surface-variant cursor-pointer" } %>
+            <div class="champion-name-label text-[9px] font-label text-ally-teal/60 mt-0.5 tracking-widest"></div>
+          </div>
+        </div>
+      <% end %>
+    </div>
+
+    <!-- Center: CTA + Pool -->
+    <div class="col-span-6 flex flex-col items-center justify-center py-8">
+      <div class="relative z-20 flex flex-col items-center">
+
+        <!-- Central orb decoration -->
+        <div class="relative w-48 h-48 mb-10">
+          <div class="absolute inset-0 rounded-full border-2 border-primary/20 animate-[spin_20s_linear_infinite]"></div>
+          <div class="absolute inset-2 rounded-full border border-primary-container/30 animate-[spin_15s_linear_infinite_reverse]"></div>
+          <div class="absolute inset-4 rounded-full bg-surface-container-low flex items-center justify-center">
+            <div class="text-center">
+              <span class="material-symbols-outlined text-5xl text-primary/40">swords</span>
+              <div class="text-[8px] font-label text-primary-container/40 tracking-[0.3em] mt-1">VS</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CTA Button -->
+        <button type="submit" class="relative group px-12 py-5 overflow-hidden cursor-pointer mb-16 rounded-xl">
+          <div class="absolute inset-0 bg-primary opacity-90 group-hover:scale-105 transition-transform duration-300 rounded-xl"></div>
+          <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
+          <span class="relative font-headline font-extrabold text-on-primary tracking-widest text-lg italic flex items-center space-x-3">
+            <span class="material-symbols-outlined">insights</span>
+            <span>ANALYZE MATCHUP</span>
+          </span>
+        </button>
+
+        <!-- Champion Pool -->
+        <div class="w-full max-w-lg">
+          <div class="flex justify-between items-center mb-6">
+            <span class="h-[1px] bg-outline-variant flex-1"></span>
+            <h4 class="px-4 font-headline text-xs tracking-[0.4em] text-primary-container uppercase">Your Champion Pool</h4>
+            <span class="h-[1px] bg-outline-variant flex-1"></span>
+          </div>
+          <div class="flex justify-center space-x-10">
+            <% 3.times do |i| %>
+              <div class="champion-row flex flex-col items-center group cursor-pointer">
+                <div class="relative w-16 h-16 mb-2 cursor-pointer" data-action="click->matchup#openSelect">
+                  <div class="champion-placeholder w-16 h-16 rounded-full border border-primary-container/40 flex items-center justify-center bg-surface-container-lowest transition-all duration-300 group-hover:border-primary/60">
+                    <span class="material-symbols-outlined text-primary-container/40">person</span>
+                  </div>
+                  <img class="champion-portrait hidden opacity-0 scale-75 absolute inset-0 w-16 h-16 rounded-full object-cover border-2 border-primary-container group-hover:brightness-125 transition-all duration-500" src="" alt="">
+                </div>
+                <%= f.select :pool, @champions.map { |c| [c.name, c.name] },
+                    {prompt: "Pick ##{i + 1}"},
+                    { name: "pool[]", data: { action: "change->matchup#updatePortrait" },
+                      class: "w-28 bg-transparent text-center text-[10px] font-label text-primary-container border-0 focus:ring-0 py-0 appearance-none cursor-pointer" } %>
+                <div class="champion-name-label text-[9px] font-label text-primary-container/60 tracking-widest mt-0.5"></div>
+              </div>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Enemy Team (Right) -->
+    <div class="col-span-3 space-y-5 text-right">
+      <h3 class="font-headline text-enemy-red text-sm tracking-widest mb-4 flex items-center justify-end">
+        ENEMY TEAM <span class="w-8 h-[1px] bg-enemy-red ml-2"></span>
+      </h3>
+      <% [["Top", "top", "stat_3"], ["Jungle", "jungle", "forest"], ["Mid", "mid", "adjust"], ["ADC", "adc", "ads_click"], ["Support", "supp", "support"]].each do |label, role, icon| %>
+        <div class="champion-row flex flex-row-reverse items-center space-x-reverse space-x-3 group">
+          <div class="relative w-14 h-14 shrink-0 cursor-pointer" data-action="click->matchup#openSelect">
+            <div class="champion-placeholder w-14 h-14 rounded-full border-2 border-dashed border-outline-variant flex items-center justify-center bg-surface-container-lowest transition-all duration-300 hover:border-enemy-red/60">
+              <span class="material-symbols-outlined text-outline"><%= icon %></span>
+            </div>
+            <img class="champion-portrait hidden opacity-0 scale-75 absolute inset-0 w-14 h-14 rounded-full object-cover champion-portrait-glow-enemy transition-all duration-500" src="" alt="">
+          </div>
+          <div class="flex-1">
+            <div class="text-[10px] font-label text-enemy-red mb-1 uppercase"><%= label %></div>
+            <%= f.select :enemies, @champions.map { |c| [c.name, c.name] },
+                {prompt: "Select Champion..."},
+                { name: "enemies[]", data: { action: "change->matchup#updatePortrait" },
+                  class: "w-full bg-surface-container text-xs font-body border-b border-outline-variant focus:border-enemy-red focus:ring-0 py-1 px-0 appearance-none text-on-surface-variant text-right cursor-pointer" } %>
+            <div class="champion-name-label text-[9px] font-label text-enemy-red/60 mt-0.5 tracking-widest"></div>
+          </div>
+        </div>
+      <% end %>
+    </div>
+
+  </div>
 <% end %>
 
-  <div id="recommendation-result"></div>
+<!-- Result -->
+<div id="recommendation-result" class="w-full max-w-6xl mt-16 mb-32">
+</div>
