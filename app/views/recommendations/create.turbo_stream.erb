@@ -1,7 +1,17 @@
- <%= turbo_stream.update "recommendation-result" do %>
-    <% if @recommendation.present?%>
-      <div class="claude-response">
-      <%= markdown_to_html(@recommendation.content[0].text)%>
-      </div >
-    <%end%>
+<%= turbo_stream.update "recommendation-result" do %>
+  <% if @recommendation.present? %>
+    <div class="bg-surface-container-high gold-trim p-1">
+      <div class="bg-surface-container-lowest p-8 md:p-12 relative overflow-hidden">
+        <!-- Ambient glow -->
+        <div class="absolute -top-24 -left-24 w-96 h-96 bg-primary opacity-5 blur-[120px] rounded-full"></div>
+
+        <div class="relative z-10">
+          <h2 class="font-headline text-3xl font-extrabold text-primary tracking-tight italic mb-2 uppercase">RECOMMENDATION</h2>
+          <div class="claude-response">
+            <%= markdown_to_html(@recommendation.content[0].text) %>
+          </div>
+        </div>
+      </div>
+    </div>
   <% end %>
+<% end %>
