@@ -1,17 +1,176 @@
 <%= turbo_stream.update "recommendation-result" do %>
-  <% if @recommendation.present? %>
-    <div class="bg-surface-container-high gold-trim p-1">
+  <% if @data.present? %>
+    <% best = @data["best_pick"] %>
+    <% second = @data["second_pick"] %>
+    <% third = @data["third_pick"] %>
+
+    <!-- Best Pick Card -->
+    <div class="bg-surface-container-high gold-trim p-1 mb-8">
       <div class="bg-surface-container-lowest p-8 md:p-12 relative overflow-hidden">
-        <!-- Ambient glow -->
         <div class="absolute -top-24 -left-24 w-96 h-96 bg-primary opacity-5 blur-[120px] rounded-full"></div>
 
-        <div class="relative z-10">
-          <h2 class="font-headline text-3xl font-extrabold text-primary tracking-tight italic mb-2 uppercase">RECOMMENDATION</h2>
-          <div class="claude-response">
-            <%= markdown_to_html(@recommendation.content[0].text) %>
+        <div class="relative z-10 flex flex-col md:flex-row gap-10">
+          <!-- Left: Champion Portrait + Runes -->
+          <div class="flex flex-col items-center space-y-4 shrink-0">
+            <div class="relative">
+              <div class="absolute inset-0 rounded-full border-4 border-primary/20 scale-110"></div>
+              <div class="absolute inset-0 rounded-full border border-primary-container/30 scale-105 animate-pulse"></div>
+              <% if @champion_images[best["champion"]] %>
+                <img src="<%= @champion_images[best["champion"]] %>" alt="<%= best["champion"] %>"
+                     class="w-40 h-40 rounded-full border-4 border-primary object-cover">
+              <% end %>
+              <div class="absolute -bottom-3 left-1/2 -translate-x-1/2 bg-primary text-on-primary font-headline font-bold px-4 py-1 italic tracking-widest text-xs">
+                S-TIER PICK
+              </div>
+            </div>
+
+            <!-- Runes with images -->
+            <% if best["runes"] %>
+              <div class="text-center mt-6">
+                <div class="text-[10px] font-label text-primary-container tracking-[0.3em] uppercase mb-3"><%= best["runes"]["primary_tree"] %> + <%= best["runes"]["secondary_tree"] %></div>
+
+                <!-- Keystone -->
+                <div class="flex justify-center mb-2">
+                  <div class="flex flex-col items-center">
+                    <div class="w-14 h-14 rounded-full bg-surface-container-highest border-2 border-primary/60 flex items-center justify-center overflow-hidden">
+                      <% if rune_image_url(best["runes"]["keystone"]) %>
+                        <img src="<%= rune_image_url(best["runes"]["keystone"]) %>" class="w-10 h-10" alt="<%= best["runes"]["keystone"] %>">
+                      <% else %>
+                        <span class="material-symbols-outlined text-primary">swords</span>
+                      <% end %>
+                    </div>
+                    <span class="text-[9px] font-label text-primary mt-1"><%= best["runes"]["keystone"] %></span>
+                  </div>
+                </div>
+
+                <!-- Primary runes -->
+                <div class="flex justify-center gap-3 mb-2">
+                  <% best["runes"]["primary"]&.each do |rune| %>
+                    <div class="flex flex-col items-center">
+                      <div class="w-9 h-9 rounded-full bg-surface-container-highest border border-primary/30 flex items-center justify-center overflow-hidden">
+                        <% if rune_image_url(rune) %>
+                          <img src="<%= rune_image_url(rune) %>" class="w-7 h-7" alt="<%= rune %>">
+                        <% else %>
+                          <span class="material-symbols-outlined text-xs text-primary-container">star</span>
+                        <% end %>
+                      </div>
+                      <span class="text-[7px] font-label text-on-surface-variant mt-0.5 max-w-[50px] text-center leading-tight"><%= rune %></span>
+                    </div>
+                  <% end %>
+                </div>
+
+                <!-- Secondary runes -->
+                <div class="flex justify-center gap-3">
+                  <% best["runes"]["secondary"]&.each do |rune| %>
+                    <div class="flex flex-col items-center">
+                      <div class="w-9 h-9 rounded-full bg-surface-container border border-outline-variant/50 flex items-center justify-center overflow-hidden">
+                        <% if rune_image_url(rune) %>
+                          <img src="<%= rune_image_url(rune) %>" class="w-7 h-7" alt="<%= rune %>">
+                        <% else %>
+                          <span class="material-symbols-outlined text-xs text-secondary">star</span>
+                        <% end %>
+                      </div>
+                      <span class="text-[7px] font-label text-secondary mt-0.5 max-w-[50px] text-center leading-tight"><%= rune %></span>
+                    </div>
+                  <% end %>
+                </div>
+              </div>
+            <% end %>
+          </div>
+
+          <!-- Right: Strategy -->
+          <div class="flex-1 space-y-6">
+            <div>
+              <h2 class="font-headline text-4xl font-extrabold text-primary tracking-tight italic uppercase"><%= best["champion"] %></h2>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6">
+              <div>
+                <h3 class="font-headline text-xs text-primary tracking-[0.3em] uppercase mb-3 flex items-center">
+                  <span class="material-symbols-outlined text-sm mr-2">map</span> STRATEGY
+                </h3>
+                <p class="text-sm text-on-surface-variant leading-relaxed font-body"><%= best["why"] %></p>
+              </div>
+              <div>
+                <h3 class="font-headline text-xs text-enemy-red tracking-[0.3em] uppercase mb-3 flex items-center">
+                  <span class="material-symbols-outlined text-sm mr-2">warning</span> THREATS
+                </h3>
+                <p class="text-sm text-on-surface-variant leading-relaxed font-body"><%= best["threats"] %></p>
+              </div>
+              <div>
+                <h3 class="font-headline text-xs text-ally-teal tracking-[0.3em] uppercase mb-3 flex items-center">
+                  <span class="material-symbols-outlined text-sm mr-2">auto_awesome</span> WIN CONDITION
+                </h3>
+                <p class="text-sm text-on-surface-variant leading-relaxed font-body"><%= best["win_condition"] %></p>
+              </div>
+            </div>
+
+            <!-- Build with images -->
+            <% if best["build"] %>
+              <div>
+                <h3 class="font-headline text-xs text-primary tracking-[0.3em] uppercase mb-3 flex items-center">
+                  <span class="material-symbols-outlined text-sm mr-2">shopping_bag</span> BUILD PATH
+                </h3>
+                <div class="flex flex-wrap items-center gap-3">
+                  <% best["build"]["core"]&.each_with_index do |item, i| %>
+                    <div class="flex flex-col items-center">
+                      <div class="w-12 h-12 bg-surface-container-highest border-2 border-primary/40 flex items-center justify-center overflow-hidden relative">
+                        <% if item_image_url(item) %>
+                          <img src="<%= item_image_url(item) %>" class="w-full h-full object-cover" alt="<%= item %>">
+                        <% else %>
+                          <span class="material-symbols-outlined text-primary-container">inventory_2</span>
+                        <% end %>
+                        <div class="absolute -top-1 -left-1 bg-primary text-on-primary text-[8px] font-bold w-4 h-4 flex items-center justify-center"><%= i + 1 %></div>
+                      </div>
+                      <span class="text-[8px] font-label text-primary mt-1 max-w-[60px] text-center leading-tight"><%= item %></span>
+                    </div>
+                    <% if i < best["build"]["core"].length - 1 %>
+                      <span class="text-outline-variant text-lg">→</span>
+                    <% end %>
+                  <% end %>
+
+                  <% if best["build"]["situational"]&.any? %>
+                    <span class="text-outline-variant text-lg mx-1">|</span>
+                    <% best["build"]["situational"]&.each do |item| %>
+                      <div class="flex flex-col items-center opacity-70">
+                        <div class="w-10 h-10 bg-surface-container border border-outline-variant/40 flex items-center justify-center overflow-hidden">
+                          <% if item_image_url(item) %>
+                            <img src="<%= item_image_url(item) %>" class="w-full h-full object-cover" alt="<%= item %>">
+                          <% else %>
+                            <span class="material-symbols-outlined text-xs text-on-surface-variant">inventory_2</span>
+                          <% end %>
+                        </div>
+                        <span class="text-[7px] font-label text-on-surface-variant mt-1 max-w-[55px] text-center leading-tight"><%= item %></span>
+                      </div>
+                    <% end %>
+                  <% end %>
+                </div>
+              </div>
+            <% end %>
           </div>
         </div>
       </div>
+    </div>
+
+    <!-- Second & Third Picks -->
+    <div class="grid md:grid-cols-2 gap-4">
+      <% [["2nd", second], ["3rd", third]].each do |rank, pick| %>
+        <% next unless pick %>
+        <div class="bg-surface-container p-6 relative overflow-hidden">
+          <div class="absolute -top-12 -right-12 w-48 h-48 bg-primary opacity-[0.03] blur-[80px] rounded-full"></div>
+          <div class="relative z-10 flex items-center space-x-4">
+            <% if @champion_images[pick["champion"]] %>
+              <img src="<%= @champion_images[pick["champion"]] %>" alt="<%= pick["champion"] %>"
+                   class="w-16 h-16 rounded-full border-2 border-primary-container/40 object-cover shrink-0">
+            <% end %>
+            <div>
+              <div class="text-[10px] font-label text-primary-container/60 tracking-[0.3em] uppercase"><%= rank %> OPTION</div>
+              <h3 class="font-headline text-xl font-bold text-primary-fixed-dim italic uppercase"><%= pick["champion"] %></h3>
+              <p class="text-xs text-on-surface-variant font-body mt-1 leading-relaxed"><%= pick["why"] %></p>
+            </div>
+          </div>
+        </div>
+      <% end %>
     </div>
   <% end %>
 <% end %>

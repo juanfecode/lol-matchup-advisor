@@ -1,9 +1,9 @@
 class RecommendationsController < ApplicationController
   def create
     @role = params[:your_role]
-    @enemies = params[:enemies]
-    @allies = params[:allies]
-    @pool = params[:pool]
+    @enemies = params[:enemies].compact.reject(&:empty?)
+    @allies = params[:allies].compact.reject(&:empty?)
+    @pool = params[:pool].compact.reject(&:empty?)
 
     prompt = <<~PROMPT
       You are an expert League of Legends coach.
@@ -12,41 +12,55 @@ class RecommendationsController < ApplicationController
 
       THEIR ROLE: #{@role}
       THEIR CHAMPION POOL: #{@pool.join(', ')}
+      ENEMY TEAM: #{@enemies.join(', ')}
+      ALLY TEAM: #{@allies.join(', ')}
 
-      ENEMY TEAM: #{@enemies.compact.reject(&:empty?).join(', ')}
+      Analyze the full team composition and recommend the best champion from their pool.
+      Consider synergies with allies, threats from enemies, and lane matchups.
 
-      ALLY TEAM: #{@allies.compact.reject(&:empty?).join(', ')}
+      RESPOND ONLY WITH VALID JSON. No markdown, no extra text. Use this exact structure:
+      {
+        "best_pick": {
+          "champion": "ExactChampionName",
+          "why": "2-3 sentence explanation of why this champion is best for this matchup",
+          "runes": {
+            "keystone": "Conqueror",
+            "primary_tree": "Precision",
+            "primary": ["Triumph", "Legend: Alacrity", "Last Stand"] for example,
+            "secondary_tree": "Resolve",
+            "secondary": ["Bone Plating", "Unflinching"]
+          },
+          "build": {
+            "core": ["Item1", "Item2", "Item3"],
+            "situational": ["Item4", "Item5"]
+          },
+          "threats": "Which enemies to watch out for and why",
+          "win_condition": "How to win this game with this pick"
+        },
+        "second_pick": {
+          "champion": "ExactChampionName",
+          "why": "Brief explanation"
+        },
+        "third_pick": {
+          "champion": "ExactChampionName",
+          "why": "Brief explanation"
+        }
+      }
 
-      Analyze the full team composition to recommend the optimal keystone.
-      Consider the synergies between the player's champion pool and their allies, 
-      as well as the threats posed by the enemy champions.
-      Consider factors like: does the enemy have tanks to shred? 
-      Is there a poke comp that needs sustain?
-
-      Based on this matchup, recommend which champion from their pool they should play.
-      Structure your response exactly like this:
-
-      ## Best Pick: [champion name]
-      ### Runes: [rune page name]
-      ### Build: [first Core Build and then situational items]
-      ### Why this champion wins this matchup: [explanation]
-      ### Threats to watch out for: [specific enemies to respect]
-      ### Win condition: [how to win the game with this pick]
-
-      ## Second Option: [champion name]
-      ### Why: [brief explanation]
-
-      ## Third Option: [champion name]
-      ### Why: [brief explanation]
+      IMPORTANT: The champion names must match exactly: #{@pool.join(', ')}
     PROMPT
 
-    @recommendation = ANTHROPIC_CLIENT.messages.create(
+    response = ANTHROPIC_CLIENT.messages.create(
       model: "claude-sonnet-4-20250514",
       max_tokens: 1024,
       messages: [
         { role: "user", content: prompt }
       ]
     )
+
+    raw_text = response.content[0].text.gsub(/```json\n?/, "").gsub(/```\n?/, "").strip
+    @data = JSON.parse(raw_text)
+    @champion_images = Champion.pluck(:name, :image_url).to_h
 
     respond_to do |format|
       format.turbo_stream
