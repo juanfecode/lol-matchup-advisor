@@ -4,17 +4,47 @@ class RecommendationsController < ApplicationController
     @enemies = params[:enemies]
     @allies = params[:allies]
     @pool = params[:pool]
+
+    prompt = <<~PROMPT
+      You are an expert League of Legends coach.
+
+      A player needs help choosing a champion for their game.
+
+      THEIR ROLE: #{@role}
+      THEIR CHAMPION POOL: #{@pool.join(', ')}
+
+      ENEMY TEAM: #{@enemies.compact.reject(&:empty?).join(', ')}
+
+      ALLY TEAM: #{@allies.compact.reject(&:empty?).join(', ')}
+
+      Analyze the full team composition to recommend the optimal keystone.
+      Consider the synergies between the player's champion pool and their allies, 
+      as well as the threats posed by the enemy champions.
+      Consider factors like: does the enemy have tanks to shred? 
+      Is there a poke comp that needs sustain?
+
+      Based on this matchup, recommend which champion from their pool they should play.
+      Structure your response exactly like this:
+
+      ## Best Pick: [champion name]
+      ### Runes: [rune page name]
+      ### Build: [first Core Build and then situational items]
+      ### Why this champion wins this matchup: [explanation]
+      ### Threats to watch out for: [specific enemies to respect]
+      ### Win condition: [how to win the game with this pick]
+
+      ## Second Option: [champion name]
+      ### Why: [brief explanation]
+
+      ## Third Option: [champion name]
+      ### Why: [brief explanation]
+    PROMPT
+
     @recommendation = ANTHROPIC_CLIENT.messages.create(
       model: "claude-sonnet-4-20250514",
       max_tokens: 1024,
       messages: [
-        { role: "user",
-          content: "you are an expert coach on League of Legends.
-                You are given the following information about a game: your role is #{@role},
-                your enemies are #{@enemies.join(', ')}, your allies are #{@allies.join(', ')},
-                and the pool of champions you know how to use are #{@pool.join(', ')}.
-                Based on this information, recommend the best champion for me to play in this game
-                and explain why you think that champion is the best choice." }
+        { role: "user", content: prompt }
       ]
     )
 

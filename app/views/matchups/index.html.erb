@@ -4,7 +4,7 @@
                              ["Mid", "mid"], 
                              ["Adc", "adc"], 
                              ["Supp", "supp"] ], 
-                {prompt: "Escoje tu rol"}, 
+                {prompt: "Choose your role"}, 
                 { class: "form-select", data: {action: "change->matchup#hideAlly"} }%>
     <%= f.select :enemies, 
                 @champions.map { |c| [c.name, c.name] }, 
@@ -69,4 +69,5 @@
     <%= f.submit "Crear" %>
 <% end %>
 
-  <div id="recommendation-result"></div>
+  <div id="recommendation-result">
+  </div>

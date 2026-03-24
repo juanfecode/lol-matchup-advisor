@@ -1,3 +1,7 @@
  <%= turbo_stream.update "recommendation-result" do %>
-   <%= @recommendation.content[0].text %>
+    <% if @recommendation.present?%>
+      <div class="claude-response">
+      <%= markdown_to_html(@recommendation.content[0].text)%>
+      </div >
+    <%end%>
   <% end %>
