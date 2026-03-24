@@ -18,20 +18,13 @@
     <%= javascript_importmap_tags %>
   </head>
 
-  <body class="bg-surface text-on-surface font-body selection:bg-primary selection:text-on-primary overflow-x-hidden">
+  <body class="text-on-surface font-body selection:bg-primary selection:text-on-primary overflow-x-hidden" style="background-color: #081327;">
     <!-- Animated nebula background -->
     <div class="nebula-layer-1"></div>
     <div class="nebula-layer-2"></div>
     <!-- Top Nav -->
-    <nav class="flex justify-between items-center w-full px-8 h-20 backdrop-blur-md bg-surface/90 fixed top-0 z-50 shadow-[0_10px_30px_rgba(0,0,0,0.5)]">
-      <div class="text-2xl font-bold tracking-tighter text-primary italic font-headline">LEAGUE OF LEGENDS</div>
-      <div class="hidden md:flex items-center space-x-8 font-headline tracking-widest uppercase text-sm">
-        <a href="/" class="text-primary border-b-2 border-primary pb-2 brightness-125 transition-all">PLAY</a>
-      </div>
-      <div class="flex items-center space-x-6">
-        <span class="material-symbols-outlined text-primary hover:brightness-125 cursor-pointer">notifications</span>
-        <span class="material-symbols-outlined text-primary hover:brightness-125 cursor-pointer">settings</span>
-      </div>
+    <nav class="flex justify-center items-center w-full px-8 h-16 backdrop-blur-xl bg-surface/40 fixed top-0 z-50 shadow-[0_10px_30px_rgba(0,0,0,0.5)]">
+      <a href="/" class="text-2xl font-bold tracking-tighter text-primary italic font-headline hover:brightness-125 transition-all">LOL MATCHUP ADVISOR</a>
     </nav>
     <div class="bg-gradient-to-b from-surface-container to-transparent h-1 fixed top-20 w-full z-50"></div>
 
