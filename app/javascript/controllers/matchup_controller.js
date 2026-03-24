@@ -7,9 +7,9 @@ export default class extends Controller {
 
   hideAlly(event){
     this.element.querySelectorAll("[data-role]").forEach(element => {
-      element.classList.remove("d-none")
+      element.classList.remove("hidden")
       if (element.dataset.role == event.target.value) {
-        element.classList.add("d-none")
+        element.classList.add("hidden")
       }
     });
   }
