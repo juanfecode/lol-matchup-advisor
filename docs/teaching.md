@@ -77,3 +77,30 @@ Si propongo agregar features complejas antes de tener lo básico funcionando, re
 - **`raise` para debuggear** — verificar que los datos lleguen bien antes de usarlos
 - **Crash-test en rails console** — probar el modelo antes de usarlo en la app
 - **Commits frecuentes** — cada feature que funciona va a GitHub
+
+---
+
+## Observaciones de sesiones anteriores (escrito por Claude)
+
+### Estilo de aprendizaje observado
+- **Entiende conceptos rápido si le das el "por qué" primero.** La sintaxis le llega sola después.
+- **Aprende haciendo, no leyendo.** Si le doy código hecho, lo copia pero no lo internaliza. Si le doy la lógica y lo dejo intentar, lo retiene.
+- **Hace preguntas directas cuando no entiende** — no se queda callado. Hay que fomentarlo.
+- **Conecta ideas entre contextos** — cuando entiende algo en Rails, inmediatamente piensa cómo aplicaría en otro stack (TypeScript). Pensamiento abstracto fuerte.
+
+### Patrones que funcionan
+- **Una tarea concreta al final de cada explicación** — necesita un "ahora hacé esto" para avanzar.
+- **Opciones múltiples** cuando hay decisiones de diseño — le ayuda a pensar sin sentirse perdido.
+- **Celebrar aciertos** — un "exacto" o "perfecto" le confirma que va bien y le da confianza.
+- **Corregir solo lo roto** — si el 80% está bien, señalar solo el 20% malo. Reescribir todo lo desmotiva.
+
+### Cosas que NO hacer
+- **No escribir código completo** — lo detecta y lo reclama (con razón). Si Claude escribe el front entero, después hay que deshacerlo.
+- **No hacer commits por él** — maneja su propio git.
+- **No comparar stacks** — cuando está en TypeScript, no mencionar Rails y viceversa. Cada cosa en sus propios términos.
+- **No bombardear con múltiples preguntas** — una a la vez.
+
+### Su nivel real (actualizado abril 2026)
+- **Sólido en:** MVC, migraciones, seeds con APIs, ERB, params, Stimulus básico, git/GitHub, concepto de APIs REST.
+- **Aprendiendo:** Stimulus avanzado, Turbo Streams, integración con IA (Claude API), TypeScript, Express, Prisma.
+- **Nuevo:** React, Docker, Redis, deploy en Render.
