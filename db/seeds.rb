@@ -1,25 +1,14 @@
-# This file should ensure the existence of records required to run the application in every environment (production,
-# development, test). The code here should be idempotent so that it can be executed at any point in every environment.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Example:
-#
-#   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
-#     MovieGenre.find_or_create_by!(name: genre_name)
-#   end
+require "json"
+require "net/http"
 
-require 'open-uri'
-require 'json'
+champions_data = JSON.parse(Net::HTTP.get(URI(DataDragonClient.champions_data_url)))
 
-url = "https://ddragon.leagueoflegends.com/cdn/14.6.1/data/en_US/champion.json"
-data = JSON.parse(URI.open(url).read)
-
-data["data"].each do |key, champion|
-  Champion.find_or_create_by(champion_id: champion["id"]) do |c|
-    c.name = champion ["name"]
-    c.title = champion ["title"]
-    c.image_url = "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/champion/#{champion["image"]["full"]}"
-  end
+champions_data["data"].each do |_key, champion|
+  record = Champion.find_or_initialize_by(champion_id: champion["id"])
+  record.name = champion["name"]
+  record.title = champion["title"]
+  record.image_url = DataDragonClient.champion_image_url(champion["image"]["full"])
+  record.save!
 end
 
-puts "Cargados #{Champion.count} campeones!"
+puts "✅ #{Champion.count} campeones cargados (versión #{DataDragonClient.latest_version})"
