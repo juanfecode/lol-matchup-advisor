@@ -1,0 +1,27 @@
+<%= turbo_stream.update "champion-search-result" do %>
+  <div class="space-y-8" data-controller="auto-scroll">
+    <div>
+      <p class="text-gray-400 text-sm uppercase tracking-wide mb-2">Resultados para:</p>
+      <p class="text-xl text-[#eaca8b] italic">"<%= @query %>"</p>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+      <% @results[:champions].each do |champion| %>
+        <div class="bg-[#151f34] p-4 text-center transition-all duration-200 hover:bg-[#1e2a44] hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(234,202,139,0.15)]">
+          <img src="<%= champion.image_url %>"
+               alt="<%= champion.name %>"
+               class="w-20 h-20 mx-auto mb-2">
+          <p class="font-bold text-white"><%= champion.name %></p>
+          <p class="text-xs text-gray-400"><%= champion.title %></p>
+        </div>
+      <% end %>
+    </div>
+
+    <div class="bg-[#151f34] p-6 claude-response">
+      <h3 class="text-[#eaca8b] font-bold mb-4 text-lg">Why these match</h3>
+      <div class="text-gray-200 leading-relaxed prose prose-invert max-w-none">
+        <%= markdown_to_html(@results[:explanation]) %>
+      </div>
+    </div>
+  </div>
+<% end %>

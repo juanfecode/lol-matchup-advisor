@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400;0,700;0,800;1,700;1,800&family=Manrope:wght@400;600;700&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
 
-    <link rel="icon" href="/icon.png" type="image/png">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23081327'/%3E%3Ctext x='50%25' y='54%25' text-anchor='middle' dominant-baseline='middle' font-family='Georgia,serif' font-weight='bold' font-size='16' fill='%23eaca8b'%3EMA%3C/text%3E%3C/svg%3E">
     <%= stylesheet_link_tag "tailwind", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
@@ -23,8 +23,12 @@
     <div class="nebula-layer-1"></div>
     <div class="nebula-layer-2"></div>
     <!-- Top Nav -->
-    <nav class="flex justify-center items-center w-full px-8 h-16 backdrop-blur-xl bg-surface/40 fixed top-0 z-50 shadow-[0_10px_30px_rgba(0,0,0,0.5)]">
-      <a href="/" class="text-2xl font-bold tracking-tighter text-primary italic font-headline hover:brightness-125 transition-all">LOL MATCHUP ADVISOR</a>
+    <nav class="flex justify-between items-center w-full px-8 h-16 backdrop-blur-xl bg-surface/40 fixed top-0 z-50 shadow-[0_10px_30px_rgba(0,0,0,0.5)]">
+      <a href="/" class="text-xl md:text-2xl font-bold tracking-tighter text-primary italic font-headline hover:brightness-125 transition-all">LOL MATCHUP ADVISOR</a>
+      <div class="flex gap-6 md:gap-8 items-center">
+        <%= link_to "Matchup", root_path, class: "text-sm md:text-base text-on-surface hover:text-primary transition-colors tracking-wide" %>
+        <%= link_to "Champion Search", new_champion_search_path, class: "text-sm md:text-base text-on-surface hover:text-primary transition-colors tracking-wide" %>
+      </div>
     </nav>
     <div class="bg-gradient-to-b from-surface-container to-transparent h-1 fixed top-20 w-full z-50"></div>
 
