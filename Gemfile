@@ -20,7 +20,7 @@ gem "stimulus-rails"
 gem "jbuilder"
 # Use Redis adapter to run Action Cable in production
 gem "redis", ">= 4.0.1"
-gem "connection_pool", "~> 2.4"
+gem "connection_pool", "~> 3.0"
 # Vector similarity search via pgvector
 gem "neighbor"
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
