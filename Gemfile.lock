@@ -173,6 +173,8 @@ GEM
       drb (~> 2.0)
       prism (~> 1.5)
     msgpack (1.8.0)
+    neighbor (1.0.0)
+      activerecord (>= 7.2)
     net-imap (0.6.3)
       date
       net-protocol
@@ -385,6 +387,7 @@ DEPENDENCIES
   font-awesome-sass (~> 6.1)
   importmap-rails
   jbuilder
+  neighbor
   pg (~> 1.1)
   puma (>= 5.0)
   rails (~> 7.2.2, >= 7.2.2.1)

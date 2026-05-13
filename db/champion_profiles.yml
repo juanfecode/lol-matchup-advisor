@@ -1,0 +1,2407 @@
+Aatrox:
+  profile: |
+    Aatrox the Darkin Blade. Top lane bruiser fighter with healing and crowd control.
+    Identity: ranged-melee hybrid sweeping Q combos with sweet spots, self-healing on takedowns.
+    Strengths: strong all-game teamfighter, sustain, lane bully, snowball threat.
+    Weaknesses: weak vs ranged tops, vulnerable when E and R are on cooldown.
+    Scaling: strong throughout the game, slight fall-off vs hyperscaling tanks late.
+    Power spikes: level 6 (R), Eclipse/Goredrinker first item, level 11.
+    Key items: Eclipse, Black Cleaver, Sterak's Gage, Death's Dance.
+    Counters: Fiora, Camille, Riven, Kayle, Vayne top.
+    Counters to: Garen, Sett, Mordekaiser, Darius, Renekton.
+    Pro mains / streamers: Nuguri, TheShy.
+    Pick when: you want a self-sufficient top laner with teamfight presence and lane pressure.
+
+Ahri:
+  profile: |
+    Ahri the Nine-Tailed Fox. Mid lane mage assassin with high mobility.
+    Identity: charm pick mage with three R dashes, roaming threat, safe lane phase.
+    Strengths: mobility, safe lane, great roams, scales into late.
+    Weaknesses: mana-hungry early, gets out-traded by burst mages, mediocre wave clear.
+    Scaling: scales with items into late game, falls off vs full-AP burst comps.
+    Power spikes: level 6 (R three dashes), Lost Chapter components, Luden's first item.
+    Key items: Luden's Companion, Shadowflame, Rabadon's Deathcap, Zhonya's Hourglass.
+    Counters: Fizz, Yasuo, Talon, LeBlanc, Kassadin late.
+    Counters to: Twisted Fate, Lux, Karthus mid, Vex, Veigar.
+    Pro mains / streamers: Faker, Chovy, ShowMaker.
+    Pick when: comp needs mid pick potential and roams, vs immobile mages.
+
+Akali:
+  profile: |
+    Akali the Rogue Assassin. Mid or top lane assassin with shroud and high mobility.
+    Identity: invisible-shroud burst assassin, dash spam with R, energy-based no mana.
+    Strengths: high outplay potential, snowball threat, target access, kit synergy.
+    Weaknesses: weak laning vs ranged mages, hard to play in losing matchups, mediocre teamfight if behind.
+    Scaling: power-pick early, drops off late vs heavy CC and tank itemization.
+    Power spikes: level 6 (R), Hextech Rocketbelt, Lich Bane.
+    Key items: Hextech Rocketbelt, Lich Bane, Shadowflame, Zhonya's Hourglass.
+    Counters: Galio, Pantheon, Kassadin, Diana, Lissandra.
+    Counters to: Orianna, Viktor, Lux, Zilean, Karma mid.
+    Pro mains / streamers: Faker, Chovy.
+    Pick when: enemy mid is immobile and squishy, you want carry assassin potential.
+
+Akshan:
+  profile: |
+    Akshan the Rogue Sentinel. Mid or top lane marksman with grappling hook mobility.
+    Identity: revive-allies passive, AD ranged caster, swing-and-shoot kit.
+    Strengths: revive utility, mobility, ranged poke, target access via E.
+    Weaknesses: weak vs all-in burst mages, terrain-dependent (E needs walls), squishy.
+    Scaling: scales with crit items mid-late, falls off slightly vs heavy tanks.
+    Power spikes: level 6 (R execute scaling), Eclipse/IE, 2-item spike.
+    Key items: Eclipse, Manamune (Muramana), Infinity Edge, Lord Dominik's Regards.
+    Counters: Vex, Annie, Pantheon, Diana, Malzahar.
+    Counters to: Twisted Fate, Heimerdinger, Karthus, Lux, Vladimir.
+    Pro mains / streamers: varies.
+    Pick when: comp needs mid range damage and revive utility, map has good walls.
+
+Alistar:
+  profile: |
+    Alistar the Minotaur. Support tank with engage combos and peel.
+    Identity: headbutt-pulverize flash combo engage, point-and-click CC, R unkillable.
+    Strengths: best engage in the game, peel for ADC, tankiness with R, lane bully.
+    Weaknesses: weak laning if combos miss, low damage, mana issues early.
+    Scaling: strong from level 2 (W+Q combo), tanky into late game.
+    Power spikes: level 2 (combo online), level 6 (R), Locket of the Iron Solari.
+    Key items: Locket of the Iron Solari, Knight's Vow, Zeke's Convergence, Thornmail.
+    Counters: Janna, Lulu, Soraka, Karma, Morgana.
+    Counters to: Senna, Sona, Velkoz support, Lux, Zyra.
+    Pro mains / streamers: CoreJJ, Mikyx.
+    Pick when: ADC needs hard engage and peel, comp benefits from flash combos.
+
+Ambessa:
+  profile: |
+    Ambessa Medarda. Top lane bruiser fighter from Arcane lore.
+    Identity: dash-combo bruiser with crowd control and burst patterns.
+    Strengths: high outplay potential, mobility, burst damage, lane pressure.
+    Weaknesses: needs to land combos to stay relevant, weak when behind, mana-hungry.
+    Scaling: power-pick early to mid, falls off vs full-tank itemization late.
+    Power spikes: level 6 (R), Eclipse/Goredrinker first item, level 11.
+    Key items: Eclipse, Sterak's Gage, Death's Dance, Black Cleaver.
+    Counters: Malphite, Sett, Pantheon, Renekton, Singed.
+    Counters to: Yasuo, Yone, Riven, Camille, Irelia.
+    Pro mains / streamers: varies.
+    Pick when: you want carry top with outplay potential and snowball.
+
+Amumu:
+  profile: |
+    Amumu the Sad Mummy. Jungle tank with AOE crowd control ult.
+    Identity: bandage-toss engage, R AOE stun teamfight enabler, high damage tank.
+    Strengths: best AOE engage in jungle, scales with AP, easy to pilot.
+    Weaknesses: weak ganks pre-6, blue-buff-dependent, slow clear.
+    Scaling: scales with team comp, hits hard with Sunfire and Liandry's.
+    Power spikes: level 6 (R AOE stun), Sunfire Aegis, Liandry's Torment.
+    Key items: Sunfire Aegis, Liandry's Torment, Riftmaker, Demonic Embrace.
+    Counters: Lee Sin, Elise, Graves, Kindred, Karthus jungle.
+    Counters to: Master Yi, Yasuo, Yone, Tryndamere, Katarina.
+    Pro mains / streamers: varies.
+    Pick when: enemy comp clumps in teamfights, you want AOE engage from jungle.
+
+Anivia:
+  profile: |
+    Anivia the Cryophoenix. Mid lane control mage with revive passive.
+    Identity: zone-control mage with wall, stuns, and double-life passive.
+    Strengths: lane control, wave clear, teamfight zoning, hard to kill.
+    Weaknesses: immobile, mana-hungry, vulnerable to dive comps.
+    Scaling: scales hard into late game with full mage items.
+    Power spikes: level 6 (R), Lost Chapter, Rod of Ages two-item spike.
+    Key items: Rod of Ages, Seraph's Embrace, Rabadon's Deathcap, Zhonya's Hourglass.
+    Counters: Kassadin, Yasuo, Talon, Zed, Fizz.
+    Counters to: Lux, Vex, Twisted Fate, Karma, Lulu mid.
+    Pro mains / streamers: varies.
+    Pick when: comp needs zoning and wave control, vs heavy AD assassins is risky.
+
+Annie:
+  profile: |
+    Annie the Dark Child. Mid or support mage with point-and-click stun.
+    Identity: stun-stack burst mage, R Tibbers AOE, beginner-friendly carry.
+    Strengths: reliable burst, point-and-click CC, easy to pilot, snowball threat.
+    Weaknesses: low range, no mobility, mana issues early.
+    Scaling: power-pick early to mid, falls off late vs heavy tank comps.
+    Power spikes: level 6 (R Tibbers), 2-item spike with Luden's + Shadowflame.
+    Key items: Luden's Companion, Shadowflame, Rabadon's Deathcap, Zhonya's Hourglass.
+    Counters: Yasuo, Fizz, Kassadin, Talon, Diana.
+    Counters to: Karthus, Vladimir, Lux, Heimerdinger, Twisted Fate.
+    Pro mains / streamers: varies.
+    Pick when: you want simple but effective burst mage, comp needs reliable stun.
+
+Aphelios:
+  profile: |
+    Aphelios the Weapon of the Faithful. ADC marksman with five rotating weapons.
+    Identity: weapon-rotation marksman, complex kit with diverse damage patterns, scales hard.
+    Strengths: insane late-game scaling, weapon variety, high damage ceiling.
+    Weaknesses: weak laning, complex to pilot, no mobility, weapon-dependent.
+    Scaling: weak early, monstrous late-game hyperscaler.
+    Power spikes: 2-item crit spike (IE + Phantom Dancer), level 11 onwards.
+    Key items: Infinity Edge, Phantom Dancer, Lord Dominik's Regards, Bloodthirster.
+    Counters: Draven, Lucian, Tristana, Caitlyn, Samira.
+    Counters to: Sivir, Senna, Karthus ADC, Varus, Ezreal.
+    Pro mains / streamers: Ruler, Gala.
+    Pick when: comp can protect a hyperscaling carry, late game is the priority.
+
+Ashe:
+  profile: |
+    Ashe the Frost Archer. ADC marksman with utility and global ult.
+    Identity: slow-stacking utility ADC, global stun ult, vision via E.
+    Strengths: reliable peel via slow passive, teamfight utility, R engage from anywhere.
+    Weaknesses: low mobility, weak 1v1 pre-items, no escape.
+    Scaling: scales steadily with crit, falls off vs hyperscalers like Vayne late.
+    Power spikes: level 6 (R global stun), 2-item crit spike.
+    Key items: Kraken Slayer, Runaan's Hurricane, Infinity Edge, Lord Dominik's Regards.
+    Counters: Draven, Lucian, Samira, Tristana, Vayne.
+    Counters to: Senna, Sivir, Karthus ADC, Aphelios early, Smolder.
+    Pro mains / streamers: Doublelift (occasional), Rekkles.
+    Pick when: comp needs global engage, peel via slows, stable utility ADC.
+
+Aurelion Sol:
+  profile: |
+    Aurelion Sol the Star Forger. Mid lane scaling mage with stack-based ult.
+    Identity: stack-collecting late-game scaler, AOE breath, R black hole.
+    Strengths: insane late-game scaling, AOE damage, one-shot threat.
+    Weaknesses: weak laning, stack-dependent, immobile.
+    Scaling: weak early, monstrous late-game scaler.
+    Power spikes: 200+ stacks, Rabadon's Deathcap, Liandry's Torment.
+    Key items: Liandry's Torment, Rabadon's Deathcap, Zhonya's Hourglass, Cosmic Drive.
+    Counters: Yasuo, Talon, Zed, LeBlanc, Kassadin.
+    Counters to: Lux, Vex, Twisted Fate, Karma, Lulu mid.
+    Pro mains / streamers: varies.
+    Pick when: comp can protect a scaling carry, late game is the priority.
+
+Aurora:
+  profile: |
+    Aurora the Witch Between Worlds. Mid lane mage with displacement and CC.
+    Identity: hop-displacement mage with R isolation, AOE damage and pulls.
+    Strengths: reliable CC, AOE damage, target isolation via R.
+    Weaknesses: needs to land skillshots, weak vs mobile assassins.
+    Scaling: scales with full AP items into late game.
+    Power spikes: level 6 (R), Liandry's Torment, Rabadon's Deathcap.
+    Key items: Liandry's Torment, Rabadon's Deathcap, Zhonya's Hourglass, Shadowflame.
+    Counters: Yasuo, Talon, Zed, Fizz, Kassadin.
+    Counters to: Lux, Vex, Twisted Fate, Veigar, Heimerdinger.
+    Pro mains / streamers: varies.
+    Pick when: comp needs reliable CC and pick potential from mid.
+
+Azir:
+  profile: |
+    Azir the Emperor of the Sands. Mid lane mage marksman hybrid with soldiers.
+    Identity: soldier-controlling mage with shuffle ult, AA-range manipulation, mechanical.
+    Strengths: late-game hyperscaler, kiting potential, R "Shurima Shuffle" disengage.
+    Weaknesses: weak laning, mechanically intensive, no escape pre-items.
+    Scaling: weak early, monstrous late-game hyperscaler.
+    Power spikes: 2-item AP spike (Nashor's + Liandry's), level 16.
+    Key items: Nashor's Tooth, Liandry's Torment, Rabadon's Deathcap, Zhonya's Hourglass.
+    Counters: Talon, Zed, LeBlanc, Kassadin, Fizz.
+    Counters to: Lux, Vex, Twisted Fate, Karma, Lulu mid.
+    Pro mains / streamers: Faker, Chovy, Caedrel (caster, ex-pro).
+    Pick when: comp needs scaling carry mid, late game is the priority.
+
+Bard:
+  profile: |
+    Bard the Wandering Caretaker. Support roaming utility mage with global ult.
+    Identity: meep-stacking roamer, portals for engage, R global stasis.
+    Strengths: roaming threat, global utility, pick potential, kiting.
+    Weaknesses: weak laning, requires good map awareness, no engage if R missed.
+    Scaling: scales with utility items and meep stacks.
+    Power spikes: level 6 (R), Shurelya's Battlesong.
+    Key items: Shurelya's Battlesong, Locket of the Iron Solari, Mikael's Blessing, Redemption.
+    Counters: Leona, Nautilus, Pyke, Blitzcrank, Thresh.
+    Counters to: Sona, Soraka, Senna, Yuumi, Lulu (squishy enchanters).
+    Pro mains / streamers: varies.
+    Pick when: comp can synergize with roaming support, you want pick potential.
+
+Bel'Veth:
+  profile: |
+    Bel'Veth the Empress of the Void. Jungle attack-speed bruiser.
+    Identity: void-empress bruiser with infinite attack speed cap during R.
+    Strengths: fast clear, strong duels, late-game scaling, sustained damage.
+    Weaknesses: lacks burst, weak vs heavy CC, item-dependent.
+    Scaling: scales with attack speed and on-hit items into late.
+    Power spikes: level 6 (R transform), 2-item spike (BORK + Kraken).
+    Key items: Blade of the Ruined King, Kraken Slayer, Wit's End, Terminus.
+    Counters: Master Yi, Diana, Lillia, Kindred, Olaf.
+    Counters to: Sett, Garen, Aatrox, Renekton, Mordekaiser.
+    Pro mains / streamers: varies.
+    Pick when: comp needs sustained DPS jungler, late game is priority.
+
+Blitzcrank:
+  profile: |
+    Blitzcrank the Great Steam Golem. Support engage tank with hook.
+    Identity: hook-pull engage, point-and-click silence, R AOE silence.
+    Strengths: pick potential via hook, lane pressure, snowball threat.
+    Weaknesses: weak if hooks miss, bad teamfight teamfights, kited easily.
+    Scaling: power-pick early to mid, falls off late vs full peel comps.
+    Power spikes: level 2 (Q+E combo), Locket of the Iron Solari.
+    Key items: Knight's Vow, Locket of the Iron Solari, Zeke's Convergence, Thornmail.
+    Counters: Janna, Lulu, Morgana, Karma, Soraka.
+    Counters to: Senna, Sona, Velkoz support, Yuumi, Zyra.
+    Pro mains / streamers: varies.
+    Pick when: comp needs pick potential, ADC has follow-up, lane bully support.
+
+Brand:
+  profile: |
+    Brand the Burning Vengeance. Support or mid mage with AOE burn damage.
+    Identity: blaze-stacking AOE mage, R bouncing damage, burst potential.
+    Strengths: AOE damage, lane bully, teamfight zoning, burst potential.
+    Weaknesses: immobile, no escape, mana issues early.
+    Scaling: scales with AP items into late game.
+    Power spikes: level 6 (R), Liandry's Torment, Rabadon's Deathcap.
+    Key items: Liandry's Torment, Rylai's Crystal Scepter, Rabadon's Deathcap, Shadowflame.
+    Counters: Yasuo, Pantheon, Talon, Zed, Diana.
+    Counters to: Lux, Vex, Twisted Fate, Karma, Lulu mid.
+    Pro mains / streamers: varies.
+    Pick when: comp needs AOE damage and zoning, lane bully support or burst mid.
+
+Braum:
+  profile: |
+    Braum the Heart of the Freljord. Support tank with shield and stun.
+    Identity: stand-behind-me shield blocker, point-and-click leap, AA-stack stun.
+    Strengths: best shielding in the game, peel for ADC, stun engage.
+    Weaknesses: low damage, kited by ranged, weak vs heavy CC.
+    Scaling: scales with tank items and ADC carry.
+    Power spikes: level 2 (Q+W combo), Locket of the Iron Solari.
+    Key items: Knight's Vow, Locket of the Iron Solari, Thornmail, Force of Nature.
+    Counters: Lulu, Janna, Morgana, Soraka, Karma.
+    Counters to: Senna, Sona, Velkoz support, Lux, Zyra.
+    Pro mains / streamers: CoreJJ, Mikyx.
+    Pick when: ADC needs peel and shielding, comp needs reliable engage.
+
+Briar:
+  profile: |
+    Briar the Restrained Hunger. Jungle bruiser with self-frenzy mechanic.
+    Identity: frenzied lifesteal bruiser, R global execute, low control kit.
+    Strengths: self-sustain via lifesteal, late-game scaling, snowball threat.
+    Weaknesses: hard to control during frenzy, weak vs heavy CC, unpredictable.
+    Scaling: scales with bruiser items into late.
+    Power spikes: level 6 (R), Sundered Sky, level 11.
+    Key items: Sundered Sky, Bloodthirster, Sterak's Gage, Death's Dance.
+    Counters: Lee Sin, Elise, Graves, Kindred, Lillia.
+    Counters to: Master Yi, Yasuo, Yone, Tryndamere, Katarina.
+    Pro mains / streamers: varies.
+    Pick when: comp needs self-sufficient jungler with execute potential.
+
+Caitlyn:
+  profile: |
+    Caitlyn the Sheriff. ADC marksman with the longest auto-attack range in the game (650).
+    Identity: long-range siege carry, lane bully, trap and headshot kit.
+    Strengths: dominant laning, strong objective sieging, safe poke.
+    Weaknesses: weak vs assassins and dive comps, mediocre 1v1, needs peel.
+    Scaling: strong early to mid game, slight late-game fall-off vs hyperscalers.
+    Power spikes: level 2 (W trap online), level 6 (R execute), 2-item crit spike.
+    Key items: Infinity Edge, Phantom Dancer, Lord Dominik's Regards, Rapid Firecannon.
+    Counters: Draven, Lucian, Tristana, Zeri, Samira.
+    Counters to: Senna, Sivir, Aphelios, Varus, Karthus ADC.
+    Pro mains / streamers: Doublelift, Rekkles.
+    Pick when: you want lane priority, safe poke, paired with engage support like Leona or Nautilus.
+
+Camille:
+  profile: |
+    Camille the Steel Shadow. Top lane bruiser-assassin with hook mobility.
+    Identity: hookshot-engage bruiser, true damage Q, point-and-click R isolation.
+    Strengths: target access via E, true damage, snowball threat, late-game scaling.
+    Weaknesses: weak laning vs ranged tops, needs items to come online.
+    Scaling: scales hard with bruiser items into late game.
+    Power spikes: level 6 (R), Trinity Force, level 11.
+    Key items: Trinity Force, Sterak's Gage, Death's Dance, Spear of Shojin.
+    Counters: Malphite, Garen, Renekton, Pantheon, Singed.
+    Counters to: Yasuo, Yone, Riven, Aatrox, Irelia.
+    Pro mains / streamers: TheShy, Nuguri, Zeus.
+    Pick when: comp needs target-access bruiser, late game is the priority.
+
+Cassiopeia:
+  profile: |
+    Cassiopeia the Serpent's Embrace. Mid lane mage with poison-stack damage.
+    Identity: ground-stack mage, R AOE stun (face enemies), no boots passive.
+    Strengths: high sustained damage, late-game scaler, lane bully vs melee.
+    Weaknesses: immobile (no boots), weak vs assassins, mana issues early.
+    Scaling: scales hard with full AP items into late game.
+    Power spikes: level 6 (R), Liandry's Torment, Rabadon's Deathcap.
+    Key items: Liandry's Torment, Rabadon's Deathcap, Zhonya's Hourglass, Shadowflame.
+    Counters: Talon, Zed, LeBlanc, Kassadin, Fizz.
+    Counters to: Garen, Renekton, Riven (mid pick), Lux, Vex.
+    Pro mains / streamers: varies.
+    Pick when: comp needs sustained mage damage, you can play immobile mage.
+
+Cho'Gath:
+  profile: |
+    Cho'Gath Terror of the Void. Top lane stack-tank with true damage ult.
+    Identity: stack-growing tank, knockup CC, R true damage execute.
+    Strengths: scales with R stacks (HP and size), AOE knockup, lane sustain.
+    Weaknesses: immobile, kited by ranged tops, weak early.
+    Scaling: scales infinitely with R stacks into late.
+    Power spikes: level 6 (R execute), Heartsteel, level 11.
+    Key items: Heartsteel, Warmog's Armor, Thornmail (vs AD), Force of Nature (vs AP).
+    Counters: Vladimir, Gangplank, Teemo, Kennen, Quinn.
+    Counters to: Yasuo, Yone, Riven, Aatrox, Renekton.
+    Pro mains / streamers: varies.
+    Pick when: comp needs unkillable frontline, you want to scale into late.
+
+Corki:
+  profile: |
+    Corki the Daring Bombardier. Mid lane AD-AP hybrid marksman.
+    Identity: special-package missile mage, mixed damage, mid range artillery.
+    Strengths: mixed damage profile, package buff for global mobility, poke.
+    Weaknesses: weak laning vs assassins, mana issues early, mediocre wave clear.
+    Scaling: scales with mixed AD/AP items into mid-late game.
+    Power spikes: level 6 (R), Trinity Force, special package (12-30 min).
+    Key items: Trinity Force, Manamune (Muramana), Lord Dominik's Regards, Black Cleaver.
+    Counters: Talon, Zed, LeBlanc, Kassadin, Fizz.
+    Counters to: Garen, Renekton, Riven, Lux, Veigar.
+    Pro mains / streamers: varies.
+    Pick when: comp needs mixed damage and poke from mid.
+
+Darius:
+  profile: |
+    Darius the Hand of Noxus. Top lane juggernaut with bleed-stack execute.
+    Identity: pull-bleed-execute juggernaut, snowball lane bully, R true damage reset.
+    Strengths: lane dominance, true damage execute, snowball threat, teamfight reset.
+    Weaknesses: kited by ranged tops, no mobility, weak vs hyperscalers.
+    Scaling: power-pick early to mid, falls off late vs full peel comps.
+    Power spikes: level 6 (R execute), Stridebreaker, level 11.
+    Key items: Stridebreaker, Sterak's Gage, Death's Dance, Black Cleaver.
+    Counters: Vayne, Quinn, Teemo, Gnar, Fiora.
+    Counters to: Garen, Sett, Mordekaiser, Aatrox, Renekton.
+    Pro mains / streamers: Tyler1.
+    Pick when: enemy top is melee and immobile, you want to snowball lane.
+
+Diana:
+  profile: |
+    Diana Scorn of the Moon. Jungle or mid AP fighter with reset ult.
+    Identity: dash-pull AP bruiser, R AOE pull and damage reset, lunar passive AOE.
+    Strengths: AOE damage, target access via R, snowball threat, mixed damage potential.
+    Weaknesses: weak laning vs ranged mages, mana issues early, item-dependent.
+    Scaling: scales with AP fighter items into late.
+    Power spikes: level 6 (R reset), Nashor's Tooth, Riftmaker.
+    Key items: Nashor's Tooth, Riftmaker, Zhonya's Hourglass, Sorcerer's Shoes.
+    Counters: Lee Sin, Graves, Kindred, Olaf, Lillia.
+    Counters to: Yasuo, Yone, Akali, Katarina, Master Yi.
+    Pro mains / streamers: varies.
+    Pick when: comp clumps in teamfights, you want AP bruiser with reset potential.
+
+Dr. Mundo:
+  profile: |
+    Dr. Mundo the Madman of Zaun. Top lane regen-tank with cleanse passive.
+    Identity: cleanse-CC tank, infinite regen, R massive HP regen, simple kit.
+    Strengths: lane sustain, immune to CC every X seconds, late-game tank scaling.
+    Weaknesses: weak early, kited by ranged tops, low damage.
+    Scaling: scales hard with HP and resists into late.
+    Power spikes: level 6 (R regen), Heartsteel, Warmog's Armor.
+    Key items: Heartsteel, Warmog's Armor, Sunfire Aegis, Force of Nature.
+    Counters: Vayne, Quinn, Gangplank, Vladimir, Teemo.
+    Counters to: Yasuo, Yone, Riven, Aatrox, Renekton.
+    Pro mains / streamers: varies.
+    Pick when: comp needs immortal frontline tank, late game scaling priority.
+
+Draven:
+  profile: |
+    Draven the Glorious Executioner. ADC marksman with axe-catching mechanic.
+    Identity: spinning-axe ADC, snowball threat, axe-catch high skill ceiling.
+    Strengths: highest early-game damage of any ADC, snowball potential, lane bully.
+    Weaknesses: complex axe management, weak if behind, falls off late.
+    Scaling: monstrous early, falls off late vs hyperscalers.
+    Power spikes: level 2 (W axe online), 2-item crit spike.
+    Key items: Bloodthirster, Infinity Edge, Phantom Dancer, Lord Dominik's Regards.
+    Counters: Caitlyn, Aphelios, Varus, Vayne, Smolder.
+    Counters to: Senna, Sivir, Karthus ADC, Ezreal, Twitch.
+    Pro mains / streamers: Tyler1.
+    Pick when: you want to snowball bot lane, paired with kill-pressure support.
+
+Ekko:
+  profile: |
+    Ekko the Boy Who Shattered Time. Mid or jungle AP assassin with rewind.
+    Identity: time-rewind assassin, AOE stun, R rewinds position and HP.
+    Strengths: high outplay potential via R, AOE damage, snowball threat.
+    Weaknesses: weak laning vs ranged mages, mana issues early.
+    Scaling: scales with AP assassin items into mid-late.
+    Power spikes: level 6 (R), Hextech Rocketbelt, Lich Bane.
+    Key items: Hextech Rocketbelt, Lich Bane, Shadowflame, Zhonya's Hourglass.
+    Counters: Talon, Zed, LeBlanc, Kassadin, Fizz.
+    Counters to: Garen, Lux, Vex, Veigar, Heimerdinger.
+    Pro mains / streamers: varies.
+    Pick when: comp needs AP assassin with outplay potential.
+
+Elise:
+  profile: |
+    Elise the Spider Queen. Jungle pick-CC mage with stun and rappel.
+    Identity: human-spider transform, stun in human form, leap in spider form.
+    Strengths: early game pressure, gank threat, snowball ganks, mixed damage.
+    Weaknesses: weak late game, mana issues, vulnerable when E is on cooldown.
+    Scaling: power-pick early to mid, falls off late.
+    Power spikes: level 6 (R rappel), 2-item AP spike.
+    Key items: Liandry's Torment, Sorcerer's Shoes, Rabadon's Deathcap, Demonic Embrace.
+    Counters: Master Yi, Diana, Lillia, Olaf, Karthus jungle.
+    Counters to: Sett, Garen, Aatrox, Renekton, Mordekaiser.
+    Pro mains / streamers: varies.
+    Pick when: you want early pressure jungler with strong ganks.
+
+Evelynn:
+  profile: |
+    Evelynn Agony's Embrace. Jungle invisible AP assassin.
+    Identity: invisible-stalker mage, R execute on low HP, charm passive.
+    Strengths: invisibility, target access, AOE damage, snowball threat.
+    Weaknesses: weak laning vs ward-heavy comps, no escape if seen, item-dependent.
+    Scaling: scales with AP items into mid-late.
+    Power spikes: level 6 (R + invisibility), Lich Bane.
+    Key items: Lich Bane, Sorcerer's Shoes, Hextech Rocketbelt, Rabadon's Deathcap.
+    Counters: Lee Sin, Graves, Elise, Kindred, Karthus jungle.
+    Counters to: Yasuo, Yone, Akali, Katarina, Master Yi.
+    Pro mains / streamers: varies.
+    Pick when: comp needs assassin pick potential, enemies don't ward heavily.
+
+Ezreal:
+  profile: |
+    Ezreal the Prodigal Explorer. ADC marksman with skillshot kit and dash.
+    Identity: skillshot blue-Q poke, E flash dash, R global skillshot.
+    Strengths: safe with E dash, poke from range, lane bully with skillshots.
+    Weaknesses: low DPS in extended fights, mediocre crit ADC.
+    Scaling: scales with mana items, falls off vs hypercarry late.
+    Power spikes: level 6 (R), Manamune (Muramana), Trinity Force.
+    Key items: Manamune (Muramana), Trinity Force, Lord Dominik's Regards, Black Cleaver.
+    Counters: Draven, Lucian, Caitlyn, Tristana, Samira.
+    Counters to: Senna, Sona, Yuumi, Karthus ADC, Smolder.
+    Pro mains / streamers: Doublelift, Rekkles.
+    Pick when: comp needs safe ranged poke ADC, paired with sustain support.
+
+Fiddlesticks:
+  profile: |
+    Fiddlesticks the Ancient Fear. Jungle AOE mage with fear and ult.
+    Identity: bushcamp-ult AOE mage, point-and-click fear, R global teleport.
+    Strengths: massive AOE damage, fear CC, R ambush teamfights, late-game scaler.
+    Weaknesses: weak ganks pre-6, no mobility, vulnerable to dives.
+    Scaling: scales hard with AP items into late.
+    Power spikes: level 6 (R), Liandry's Torment, Rabadon's Deathcap.
+    Key items: Liandry's Torment, Rabadon's Deathcap, Zhonya's Hourglass, Sorcerer's Shoes.
+    Counters: Master Yi, Lee Sin, Graves, Kindred, Olaf.
+    Counters to: Sett, Garen, Aatrox, Yasuo, Yone.
+    Pro mains / streamers: varies.
+    Pick when: comp clumps in teamfights, you want late-game AOE scaler.
+
+Fiora:
+  profile: |
+    Fiora the Grand Duelist. Top lane duelist with vital-stab true damage.
+    Identity: vital-stabbing duelist, R AOE healing zone, true damage parry.
+    Strengths: 1v1 monster, true damage, late-game scaling, snowball threat.
+    Weaknesses: weak laning vs poke, kited by ranged tops, item-dependent.
+    Scaling: scales hard with bruiser-crit items into late.
+    Power spikes: level 6 (R), Trinity Force, level 11.
+    Key items: Trinity Force, Sterak's Gage, Death's Dance, Bloodthirster.
+    Counters: Malphite, Sett, Pantheon, Renekton, Singed.
+    Counters to: Aatrox, Garen, Mordekaiser, Yasuo, Yone.
+    Pro mains / streamers: TheShy, Nuguri, Zeus.
+    Pick when: comp needs split-pusher with 1v1 dominance, late game priority.
+
+Fizz:
+  profile: |
+    Fizz the Tidal Trickster. Mid AP assassin with E untargetable.
+    Identity: E untargetable trickster, R sharkbomb knockup, AP burst.
+    Strengths: outplay potential via E, target access, snowball threat.
+    Weaknesses: weak laning vs ranged mages, mana-hungry, item-dependent.
+    Scaling: scales with AP assassin items into mid-late.
+    Power spikes: level 6 (R), Hextech Rocketbelt, Lich Bane.
+    Key items: Hextech Rocketbelt, Lich Bane, Shadowflame, Zhonya's Hourglass.
+    Counters: Garen, Pantheon, Lissandra, Galio, Malphite.
+    Counters to: Lux, Vex, Twisted Fate, Karthus mid, Veigar.
+    Pro mains / streamers: varies.
+    Pick when: enemy mid is immobile and squishy, you want carry assassin.
+
+Galio:
+  profile: |
+    Galio the Colossus. Mid lane mage tank with global ult.
+    Identity: anti-AP mage, taunt CC, R global teleport for ganks.
+    Strengths: counter-pick to AP mid, global pressure, hard CC, kit synergy with allies.
+    Weaknesses: weak vs AD assassins, low damage, mana issues early.
+    Scaling: scales with tank-AP items into mid-late.
+    Power spikes: level 6 (R), Riftmaker, Sorcerer's Shoes.
+    Key items: Riftmaker, Sorcerer's Shoes, Liandry's Torment, Zhonya's Hourglass.
+    Counters: Talon, Zed, LeBlanc, Yasuo, Kassadin.
+    Counters to: Akali, Fizz, Diana, Karma, Lulu mid.
+    Pro mains / streamers: Faker.
+    Pick when: enemy comp has 2+ AP threats, you need global teleport pressure.
+
+Gangplank:
+  profile: |
+    Gangplank the Saltwater Scourge. Top lane scaling mage-fighter.
+    Identity: barrel-stack mage-fighter, R global ult, scaling carry top.
+    Strengths: barrel combos, global ult, scaling damage, snowball threat.
+    Weaknesses: weak vs all-in tops, no mobility outside barrels.
+    Scaling: scales hard with crit and mana items into late.
+    Power spikes: Trinity Force, Essence Reaver, level 11.
+    Key items: Trinity Force, Essence Reaver, Infinity Edge, Yun Tal Wildarrows.
+    Counters: Renekton, Pantheon, Tryndamere, Camille, Jax.
+    Counters to: Aatrox, Garen, Mordekaiser, Cho'Gath, Sion.
+    Pro mains / streamers: varies.
+    Pick when: comp needs scaling carry top with global pressure.
+
+Garen:
+  profile: |
+    Garen Might of Demacia. Top lane juggernaut with silence and execute.
+    Identity: spin-and-execute juggernaut, true damage R, simple kit beginner-friendly.
+    Strengths: lane bully, true damage execute, simple to pilot, snowball threat.
+    Weaknesses: kited by ranged tops, no mobility, item-dependent.
+    Scaling: scales steadily, falls off vs full peel and CC late.
+    Power spikes: level 6 (R execute), Stridebreaker, level 11.
+    Key items: Stridebreaker, Sterak's Gage, Black Cleaver, Dead Man's Plate.
+    Counters: Vayne, Quinn, Teemo, Gnar, Fiora.
+    Counters to: Yasuo, Yone, Riven, Aatrox, Renekton.
+    Pro mains / streamers: Tyler1.
+    Pick when: enemy top is melee bruiser, you want simple snowball top laner.
+
+Gnar:
+  profile: |
+    Gnar the Missing Link. Top lane ranged-melee transformer.
+    Identity: rage-stacking transformer, R AOE knockback in mega form.
+    Strengths: lane bully in mini form, AOE engage in mega, kit flexibility.
+    Weaknesses: rage management complexity, vulnerable in transition, mana-less.
+    Scaling: scales steadily into late game.
+    Power spikes: rage transformation, Black Cleaver, level 11.
+    Key items: Black Cleaver, Sterak's Gage, Death's Dance, Trinity Force.
+    Counters: Malphite, Renekton, Pantheon, Sett, Riven.
+    Counters to: Darius, Garen, Aatrox, Cho'Gath, Mordekaiser.
+    Pro mains / streamers: varies.
+    Pick when: comp needs flex top with engage and ranged poke.
+
+Gragas:
+  profile: |
+    Gragas the Rabble Rouser. Jungle or top AP fighter with body slam.
+    Identity: body-slam engager, R explosive cask knockback, AOE damage.
+    Strengths: AOE damage, hard CC engage, kit flexibility, sustain via Q.
+    Weaknesses: mana issues, vulnerable when Q on cooldown.
+    Scaling: scales with AP-tank items into mid-late.
+    Power spikes: level 6 (R cask), Riftmaker, Liandry's Torment.
+    Key items: Riftmaker, Liandry's Torment, Zhonya's Hourglass, Demonic Embrace.
+    Counters: Lee Sin, Elise, Graves, Kindred, Olaf.
+    Counters to: Sett, Garen, Aatrox, Yasuo, Yone.
+    Pro mains / streamers: varies.
+    Pick when: comp needs AP bruiser with hard engage from jungle or top.
+
+Graves:
+  profile: |
+    Graves the Outlaw. Jungle AD fighter-marksman with shotgun.
+    Identity: shotgun-blast jungler, R explosive bullet, mixed AD-bruiser scaling.
+    Strengths: strong duels, fast clear, snowball ganks, lane-clear potential.
+    Weaknesses: weak vs ranged kiters, mana issues early.
+    Scaling: scales with AD-fighter items into mid-late.
+    Power spikes: level 6 (R), Eclipse, level 11.
+    Key items: Eclipse, Black Cleaver, Sterak's Gage, Lord Dominik's Regards.
+    Counters: Master Yi, Diana, Lillia, Olaf, Karthus jungle.
+    Counters to: Lee Sin, Elise, Evelynn, Kindred, Vi.
+    Pro mains / streamers: varies.
+    Pick when: comp needs strong dueling jungler with snowball potential.
+
+Gwen:
+  profile: |
+    Gwen the Hallowed Seamstress. Top lane AP bruiser with mist.
+    Identity: untargetable-mist bruiser, true damage Q, AP-fighter scaling.
+    Strengths: true damage, mist immunity to ranged poke, late-game scaler.
+    Weaknesses: weak laning vs hard CC, item-dependent.
+    Scaling: scales with AP fighter items into late.
+    Power spikes: level 6 (R), Nashor's Tooth, Riftmaker.
+    Key items: Nashor's Tooth, Riftmaker, Zhonya's Hourglass, Sorcerer's Shoes.
+    Counters: Malphite, Renekton, Pantheon, Sett, Camille.
+    Counters to: Yasuo, Yone, Garen, Mordekaiser, Aatrox.
+    Pro mains / streamers: varies.
+    Pick when: comp needs AP bruiser top with late-game scaling.
+
+Hecarim:
+  profile: |
+    Hecarim Shadow of War. Jungle ghost-knight bruiser with mobility.
+    Identity: ghost-charge bruiser, R fear engage, mobility-heavy kit.
+    Strengths: high mobility, snowball ganks, AOE engage, late-game scaling.
+    Weaknesses: weak ganks pre-6, vulnerable to heavy CC.
+    Scaling: scales with bruiser items into late.
+    Power spikes: level 6 (R), Trinity Force, Sterak's Gage.
+    Key items: Trinity Force, Sterak's Gage, Black Cleaver, Death's Dance.
+    Counters: Master Yi, Diana, Olaf, Kindred, Lillia.
+    Counters to: Sett, Garen, Aatrox, Yasuo, Yone.
+    Pro mains / streamers: varies.
+    Pick when: comp needs mobility jungler with engage potential.
+
+Heimerdinger:
+  profile: |
+    Heimerdinger the Revered Inventor. Top, mid, or support turret-mage.
+    Identity: turret-stacking mage, AOE wave clear, R upgraded turrets.
+    Strengths: lane sustain, turret zoning, late-game scaler, anti-melee.
+    Weaknesses: weak vs ranged mages, immobile, weak to ganks.
+    Scaling: scales with full AP items into late.
+    Power spikes: level 6 (R turret upgrade), Liandry's Torment, Rabadon's Deathcap.
+    Key items: Liandry's Torment, Rabadon's Deathcap, Zhonya's Hourglass, Cosmic Drive.
+    Counters: Yasuo, Talon, Zed, LeBlanc, Diana.
+    Counters to: Garen, Renekton, Riven, Sett, Aatrox.
+    Pro mains / streamers: varies.
+    Pick when: comp needs zone-control mage, lane is melee bruiser.
+
+Hwei:
+  profile: |
+    Hwei the Visionary. Mid lane mage with art-theme combo kit.
+    Identity: combo-painting mage, three Q paintings, AOE crowd control kit.
+    Strengths: high damage potential, AOE crowd control, kit flexibility.
+    Weaknesses: complex to pilot, mana issues, slow combo windup.
+    Scaling: scales with full AP items into late.
+    Power spikes: level 6 (R), Liandry's Torment, Rabadon's Deathcap.
+    Key items: Liandry's Torment, Rabadon's Deathcap, Zhonya's Hourglass, Shadowflame.
+    Counters: Yasuo, Talon, Zed, LeBlanc, Kassadin.
+    Counters to: Garen, Lux, Vex, Twisted Fate, Veigar.
+    Pro mains / streamers: varies.
+    Pick when: comp needs AOE damage and CC, you can pilot complex kit.
+
+Illaoi:
+  profile: |
+    Illaoi the Kraken Priestess. Top lane juggernaut with tentacle damage.
+    Identity: tentacle-spawning juggernaut, R AOE heal-and-tentacle, lane bully.
+    Strengths: lane dominance vs melee, AOE damage in tentacles, true damage E.
+    Weaknesses: kited by ranged, weak post-laning, no mobility.
+    Scaling: power-pick lane phase, falls off late.
+    Power spikes: level 6 (R), Sundered Sky, Trinity Force.
+    Key items: Sundered Sky, Trinity Force, Sterak's Gage, Death's Dance.
+    Counters: Vayne, Quinn, Teemo, Gangplank, Vladimir.
+    Counters to: Aatrox, Garen, Mordekaiser, Renekton, Sett.
+    Pro mains / streamers: varies.
+    Pick when: enemy top is melee bruiser, you want lane bully juggernaut.
+
+Irelia:
+  profile: |
+    Irelia the Blade Dancer. Top or mid lane skirmisher with reset blade.
+    Identity: reset-Q skirmisher, AOE stun via E, snowball threat.
+    Strengths: snowball reset Q, AOE stun, late-game duelist.
+    Weaknesses: weak vs ranged tops, item-dependent, mana issues early.
+    Scaling: scales with bruiser-crit items into late.
+    Power spikes: level 6 (R), Trinity Force, level 11.
+    Key items: Trinity Force, Sterak's Gage, Death's Dance, Bloodthirster.
+    Counters: Pantheon, Renekton, Malphite, Sett, Singed.
+    Counters to: Aatrox, Garen, Yasuo, Yone, Mordekaiser.
+    Pro mains / streamers: TheShy, Zeus.
+    Pick when: comp needs snowball top, late game duelist.
+
+Ivern:
+  profile: |
+    Ivern the Green Father. Jungle AP enchanter with no monster smiting.
+    Identity: brushmaker-jungler, shields and CC, R baby Daisy companion.
+    Strengths: utility ganks, shielding, fast jungle clear without combat.
+    Weaknesses: low damage, no carry potential, item-dependent.
+    Scaling: scales with utility items, peaks mid game.
+    Power spikes: level 6 (R Daisy), Moonstone Renewer, Ardent Censer.
+    Key items: Moonstone Renewer, Ardent Censer, Mikael's Blessing, Locket of the Iron Solari.
+    Counters: Lee Sin, Elise, Graves, Kindred, Karthus jungle.
+    Counters to: Sett, Garen, Aatrox, Yasuo, Yone.
+    Pro mains / streamers: varies.
+    Pick when: comp has hyper-carry that needs peel and shields from jungle.
+
+Janna:
+  profile: |
+    Janna the Storm's Fury. Support enchanter with shields and disengage.
+    Identity: tornado-knockup enchanter, R AOE heal-knockback, peel for ADC.
+    Strengths: best disengage in the game, shielding, AD buff for ADC.
+    Weaknesses: low damage, weak laning vs aggro, no engage.
+    Scaling: scales with utility items.
+    Power spikes: level 6 (R), Moonstone Renewer, Ardent Censer.
+    Key items: Moonstone Renewer, Ardent Censer, Mikael's Blessing, Redemption.
+    Counters: Leona, Nautilus, Pyke, Blitzcrank, Thresh.
+    Counters to: Senna, Sona, Yuumi, Lulu, Karma.
+    Pro mains / streamers: CoreJJ, Mikyx.
+    Pick when: ADC needs disengage and shielding, vs heavy engage comp.
+
+Jarvan IV:
+  profile: |
+    Jarvan IV the Exemplar of Demacia. Jungle bruiser with EQ engage combo.
+    Identity: flag-and-drag combo, R cataclysm zone, snowball threat.
+    Strengths: AOE knockup engage, mobility, snowball ganks.
+    Weaknesses: ult traps allies in zone (double-edged), mana issues early.
+    Scaling: scales with bruiser items into mid-late.
+    Power spikes: level 6 (R), Black Cleaver, level 11.
+    Key items: Black Cleaver, Sterak's Gage, Death's Dance, Trinity Force.
+    Counters: Lee Sin, Elise, Master Yi, Diana, Olaf.
+    Counters to: Yasuo, Yone, Riven, Aatrox, Karthus.
+    Pro mains / streamers: varies.
+    Pick when: comp needs hard engage jungle, you want classic bruiser.
+
+Jax:
+  profile: |
+    Jax Grandmaster at Arms. Top lane skirmisher with leap stun.
+    Identity: leap-stun skirmisher, R AOE damage and tower-killing potential.
+    Strengths: split-pushing, late-game 1v1 monster, scaling.
+    Weaknesses: weak laning vs ranged, mana issues, item-dependent.
+    Scaling: scales hard with bruiser items into late.
+    Power spikes: level 6 (R), Trinity Force, level 11.
+    Key items: Trinity Force, Sterak's Gage, Wit's End, Blade of the Ruined King.
+    Counters: Vayne, Quinn, Teemo, Gnar, Kennen.
+    Counters to: Aatrox, Garen, Mordekaiser, Yasuo, Yone.
+    Pro mains / streamers: varies.
+    Pick when: comp needs split-pusher with 1v1 dominance late game.
+
+Jayce:
+  profile: |
+    Jayce the Defender of Tomorrow. Top or mid lane AD-mage hybrid.
+    Identity: hammer-cannon transformer, ranged poke and melee burst, no R.
+    Strengths: lane bully, ranged poke, mixed damage, kit flexibility.
+    Weaknesses: weak vs all-in tops, mana issues, falls off late.
+    Scaling: power-pick early to mid, falls off late.
+    Power spikes: level 3 (full kit), Eclipse, Manamune (Muramana).
+    Key items: Eclipse, Manamune (Muramana), Black Cleaver, Lord Dominik's Regards.
+    Counters: Renekton, Pantheon, Malphite, Sett, Camille.
+    Counters to: Aatrox, Garen, Mordekaiser, Yasuo, Yone.
+    Pro mains / streamers: varies.
+    Pick when: lane is melee bruiser, you want ranged poke top with snowball.
+
+Jhin:
+  profile: |
+    Jhin the Virtuoso. ADC marksman with 4-shot dramatic kit.
+    Identity: 4-shot crit ADC, R global ult sniper, root traps.
+    Strengths: long-range execute via R, lane bully, snowball threat.
+    Weaknesses: only 4 shots before reload, weak in extended fights, no mobility.
+    Scaling: scales with crit + lethality items.
+    Power spikes: level 6 (R), 2-item lethality+crit spike.
+    Key items: Collector, Infinity Edge, Lord Dominik's Regards, Rapid Firecannon.
+    Counters: Draven, Lucian, Tristana, Samira, Vayne.
+    Counters to: Senna, Sivir, Aphelios, Karthus ADC, Smolder.
+    Pro mains / streamers: Doublelift, Rekkles.
+    Pick when: comp needs ranged execute, paired with engage support.
+
+Jinx:
+  profile: |
+    Jinx the Loose Cannon. ADC marksman with reset passive and global ult.
+    Identity: minigun-rocket switcher, R global execute, reset on takedown.
+    Strengths: AOE damage, snowball reset passive, late-game hyperscaler.
+    Weaknesses: weak laning, no mobility, vulnerable to dive.
+    Scaling: monstrous late-game hyperscaler.
+    Power spikes: 2-item crit spike, level 11, R execute.
+    Key items: Kraken Slayer, Phantom Dancer, Infinity Edge, Lord Dominik's Regards.
+    Counters: Draven, Lucian, Caitlyn, Tristana, Samira.
+    Counters to: Sivir, Senna, Karthus ADC, Aphelios early, Smolder.
+    Pro mains / streamers: Ruler, Doublelift.
+    Pick when: comp can protect a late-game hypercarry, R global pickoff potential.
+
+K'Sante:
+  profile: |
+    K'Sante the Pride of Nazumah. Top lane tank-juggernaut with R transformation.
+    Identity: tank-form to assassin-form via R, hook-and-stun, mixed damage.
+    Strengths: tank early, transforms to bruiser-assassin via R, kit flexibility.
+    Weaknesses: complex to pilot, item-dependent, mana issues.
+    Scaling: scales with bruiser items into late.
+    Power spikes: level 6 (R transform), Sterak's Gage, level 11.
+    Key items: Sterak's Gage, Death's Dance, Black Cleaver, Iceborn Gauntlet.
+    Counters: Vayne, Quinn, Teemo, Gnar, Fiora.
+    Counters to: Aatrox, Garen, Mordekaiser, Yasuo, Yone.
+    Pro mains / streamers: TheShy, Zeus.
+    Pick when: comp needs flex top with tank-to-bruiser transformation.
+
+Kai'Sa:
+  profile: |
+    Kai'Sa Daughter of the Void. ADC marksman with evolution kit.
+    Identity: evolving-hybrid ADC, R dash to ally, AP and AD scaling.
+    Strengths: hybrid AD/AP scaling, dash to ally, late-game hyperscaler.
+    Weaknesses: weak laning, item-dependent, no escape pre-6.
+    Scaling: scales with on-hit and evolutions into late.
+    Power spikes: level 6 (R), 2-item AS+AD spike.
+    Key items: Kraken Slayer, Nashor's Tooth, Rabadon's Deathcap, Phantom Dancer.
+    Counters: Draven, Lucian, Caitlyn, Tristana, Samira.
+    Counters to: Senna, Sivir, Karthus ADC, Aphelios early, Smolder.
+    Pro mains / streamers: Ruler, Gala.
+    Pick when: comp needs dive-protected hypercarry with mobility.
+
+Kalista:
+  profile: |
+    Kalista the Spear of Vengeance. ADC marksman with hop mechanic.
+    Identity: oathsworn-ally R support, hop-attack mechanic, kiting potential.
+    Strengths: kiting via hops, R save-ally combo, lane bully with engage support.
+    Weaknesses: complex hop mechanic, weak post-laning, falls off late.
+    Scaling: power-pick early to mid, falls off late.
+    Power spikes: level 6 (R), 2-item AS spike.
+    Key items: Blade of the Ruined King, Runaan's Hurricane, Wit's End, Phantom Dancer.
+    Counters: Caitlyn, Aphelios, Varus, Vayne, Draven.
+    Counters to: Senna, Sona, Yuumi, Karthus ADC, Smolder.
+    Pro mains / streamers: Doublelift.
+    Pick when: comp needs early aggressive ADC with engage support.
+
+Karma:
+  profile: |
+    Karma the Enlightened One. Support or mid mage-enchanter hybrid.
+    Identity: mantra-empowered enchanter, shields and roots, kit flexibility.
+    Strengths: shields, roots, mantra empower, kit flexibility.
+    Weaknesses: low burst, no engage, mana issues.
+    Scaling: scales with utility items, peaks mid-game.
+    Power spikes: level 6 (R mantra empower), Moonstone Renewer.
+    Key items: Moonstone Renewer, Ardent Censer, Staff of Flowing Water, Mikael's Blessing.
+    Counters: Leona, Nautilus, Pyke, Blitzcrank, Thresh.
+    Counters to: Sona, Soraka, Senna, Yuumi, Lulu.
+    Pro mains / streamers: CoreJJ, Mikyx.
+    Pick when: ADC needs shields and poke, comp can synergize with empowered abilities.
+
+Karthus:
+  profile: |
+    Karthus the Deathsinger. Mid or jungle AP mage with global ult.
+    Identity: deathless-passive mage (still casts dead), R global execute.
+    Strengths: late-game scaling, global ult execute, AOE damage.
+    Weaknesses: immobile, weak laning vs aggro, mana issues early.
+    Scaling: scales hard with full AP items into late.
+    Power spikes: level 6 (R), Liandry's Torment, Rabadon's Deathcap.
+    Key items: Liandry's Torment, Rabadon's Deathcap, Zhonya's Hourglass, Sorcerer's Shoes.
+    Counters: Yasuo, Talon, Zed, LeBlanc, Kassadin.
+    Counters to: Garen, Sett, Aatrox, Renekton, Mordekaiser.
+    Pro mains / streamers: varies.
+    Pick when: comp needs late-game AP scaler with global execute.
+
+Kassadin:
+  profile: |
+    Kassadin the Void Walker. Mid lane AP scaling assassin with R blink.
+    Identity: blink-spamming AP assassin, magic damage shield, late-game hyperscaler.
+    Strengths: late-game one-shot threat, mobility via R, magic shield E.
+    Weaknesses: weak laning, mana-hungry early, item-dependent.
+    Scaling: weak early, monstrous late-game hyperscaler.
+    Power spikes: level 6 (R blink), level 11, Rod of Ages two-item spike.
+    Key items: Rod of Ages, Lich Bane, Rabadon's Deathcap, Zhonya's Hourglass.
+    Counters: Talon, Pantheon, Annie, LeBlanc, Diana.
+    Counters to: Lux, Vex, Twisted Fate, Karthus mid, Veigar.
+    Pro mains / streamers: Faker, Chovy.
+    Pick when: comp can protect scaling carry mid, late game is priority.
+
+Katarina:
+  profile: |
+    Katarina the Sinister Blade. Mid lane reset assassin.
+    Identity: dagger-pickup assassin, R reset on takedown, snowball threat.
+    Strengths: reset potential, AOE damage, snowball threat, easy to pilot.
+    Weaknesses: weak vs ranged mages, item-dependent, vulnerable to CC.
+    Scaling: scales with AP assassin items into mid-late.
+    Power spikes: level 6 (R), Hextech Rocketbelt, level 11.
+    Key items: Hextech Rocketbelt, Lich Bane, Shadowflame, Zhonya's Hourglass.
+    Counters: Galio, Pantheon, Lissandra, Annie, Malzahar.
+    Counters to: Lux, Vex, Twisted Fate, Karthus mid, Veigar.
+    Pro mains / streamers: varies.
+    Pick when: enemy mid is squishy, comp needs reset assassin.
+
+Kayle:
+  profile: |
+    Kayle the Righteous. Top lane scaling AP-AD hybrid.
+    Identity: ascending-form scaler, level 16 ranged AOE waves, R untargetable.
+    Strengths: monstrous late-game scaler, R untargetable save, late-game hyperscaler.
+    Weaknesses: weak laning, vulnerable pre-6, item-dependent.
+    Scaling: weak early, monstrous late-game hyperscaler.
+    Power spikes: level 6, 11, 16 (form upgrades).
+    Key items: Nashor's Tooth, Rabadon's Deathcap, Lich Bane, Zhonya's Hourglass.
+    Counters: Pantheon, Renekton, Garen, Tryndamere, Darius.
+    Counters to: Aatrox, Mordekaiser, Sett, Yasuo, Yone.
+    Pro mains / streamers: varies.
+    Pick when: comp can protect scaling carry top, late game priority.
+
+Kayn:
+  profile: |
+    Kayn the Shadow Reaper. Jungle assassin-bruiser with form transformation.
+    Identity: scythe-form transformer (Rhaast bruiser or Shadow Assassin), R untargetable.
+    Strengths: form flex, R target access, snowball threat, late-game scaling.
+    Weaknesses: weak ganks pre-6, form-dependent, item-dependent.
+    Scaling: scales with form items into mid-late.
+    Power spikes: level 6 (R), form transformation, level 11.
+    Key items: Eclipse, Goredrinker (Rhaast) or Hextech Rocketbelt (Shadow), Death's Dance.
+    Counters: Lee Sin, Elise, Karthus jungle, Olaf, Diana.
+    Counters to: Yasuo, Yone, Riven, Aatrox, Akali.
+    Pro mains / streamers: varies.
+    Pick when: comp needs flex jungler with target-access ult.
+
+Kennen:
+  profile: |
+    Kennen the Heart of the Tempest. Top or mid AP marksman-fighter.
+    Identity: stack-stunning AP fighter, R AOE storm, ranged AA harass.
+    Strengths: ranged poke top, R AOE teamfight stun, kit flexibility.
+    Weaknesses: low burst outside R, weak vs all-in, mana issues.
+    Scaling: scales with AP fighter items into mid-late.
+    Power spikes: level 6 (R), Hextech Rocketbelt, Liandry's Torment.
+    Key items: Hextech Rocketbelt, Liandry's Torment, Zhonya's Hourglass, Rabadon's Deathcap.
+    Counters: Renekton, Pantheon, Malphite, Sett, Camille.
+    Counters to: Garen, Aatrox, Mordekaiser, Cho'Gath, Sion.
+    Pro mains / streamers: varies.
+    Pick when: comp needs ranged AP top with teamfight CC.
+
+Kha'Zix:
+  profile: |
+    Kha'Zix the Voidreaver. Jungle AD assassin with evolution kit.
+    Identity: isolated-target burst assassin, evolutions for adaptation, R invisibility.
+    Strengths: burst on isolated targets, invisibility via R, snowball threat.
+    Weaknesses: weak vs grouped enemies, item-dependent, no escape pre-6.
+    Scaling: scales with assassin items into mid-late.
+    Power spikes: level 6 (R), Eclipse, level 11.
+    Key items: Eclipse, Edge of Night, Youmuu's Ghostblade, Serylda's Grudge.
+    Counters: Master Yi, Diana, Olaf, Karthus jungle, Vi.
+    Counters to: Yasuo, Yone, Akali, Katarina, Karma.
+    Pro mains / streamers: varies.
+    Pick when: enemy comp has isolated squishy carries, you want pick assassin.
+
+Kindred:
+  profile: |
+    Kindred the Eternal Hunters. Jungle ADC-marksman hybrid.
+    Identity: mark-stacking ADC jungler, R no-death zone, AA-stack damage.
+    Strengths: snowball stacks, R clutch save, kiting potential.
+    Weaknesses: weak laning, mana issues, falls off late vs hypercarries.
+    Scaling: scales with crit and AS items.
+    Power spikes: level 6 (R), 2-item crit spike.
+    Key items: Kraken Slayer, Runaan's Hurricane, Infinity Edge, Phantom Dancer.
+    Counters: Master Yi, Diana, Olaf, Lillia, Karthus jungle.
+    Counters to: Lee Sin, Elise, Evelynn, Vi, Jarvan IV.
+    Pro mains / streamers: varies.
+    Pick when: comp needs ADC-jungler with stack scaling.
+
+Kled:
+  profile: |
+    Kled Cantankerous Cavalier. Top lane juggernaut with mount mechanic.
+    Identity: mount-charging juggernaut, R global engage, dismount HP threshold.
+    Strengths: R global engage, snowball threat, lane bully.
+    Weaknesses: dismount risk, kited by ranged tops, item-dependent.
+    Scaling: power-pick early to mid, falls off late.
+    Power spikes: level 6 (R global), Trinity Force, level 11.
+    Key items: Trinity Force, Sterak's Gage, Black Cleaver, Death's Dance.
+    Counters: Vayne, Quinn, Teemo, Gnar, Fiora.
+    Counters to: Aatrox, Garen, Mordekaiser, Yasuo, Yone.
+    Pro mains / streamers: varies.
+    Pick when: comp needs global engage top with snowball lane.
+
+Kog'Maw:
+  profile: |
+    Kog'Maw the Mouth of the Abyss. ADC hyperscaler with attack speed scaling.
+    Identity: monstrous-AS hyperscaler, % HP true damage, R artillery.
+    Strengths: late-game hypercarry, % HP damage shreds tanks, lane sustain.
+    Weaknesses: weak laning, no mobility, vulnerable to dive.
+    Scaling: monstrous late-game hyperscaler.
+    Power spikes: 2-item AS+on-hit spike, level 11.
+    Key items: Kraken Slayer, Runaan's Hurricane, Wit's End, Rabadon's Deathcap.
+    Counters: Draven, Lucian, Tristana, Samira, Vayne.
+    Counters to: Sivir, Senna, Karthus ADC, Aphelios early, Smolder.
+    Pro mains / streamers: Ruler.
+    Pick when: comp can protect immobile late-game hypercarry.
+
+LeBlanc:
+  profile: |
+    LeBlanc the Deceiver. Mid lane AP assassin with mimic ult.
+    Identity: dash-burst assassin, R mimics other abilities, snowball threat.
+    Strengths: lane bully, burst potential, mobility via W, snowball threat.
+    Weaknesses: item-dependent, falls off vs heavy CC late.
+    Scaling: scales with AP assassin items into mid-late.
+    Power spikes: level 6 (R mimic), Hextech Rocketbelt, level 11.
+    Key items: Hextech Rocketbelt, Shadowflame, Lich Bane, Zhonya's Hourglass.
+    Counters: Galio, Pantheon, Lissandra, Annie, Malzahar.
+    Counters to: Lux, Vex, Twisted Fate, Veigar, Heimerdinger.
+    Pro mains / streamers: Faker, Caps.
+    Pick when: enemy mid is squishy and immobile, you want carry assassin.
+
+Lee Sin:
+  profile: |
+    Lee Sin the Blind Monk. Jungle skirmisher with Q-W-Q insec combo.
+    Identity: kick-engage skirmisher, R insec kick, mechanically intensive.
+    Strengths: high outplay potential, snowball ganks, mobility.
+    Weaknesses: falls off late, item-dependent, mechanically punishing.
+    Scaling: power-pick early to mid, falls off late.
+    Power spikes: level 6 (R), Eclipse, level 11.
+    Key items: Eclipse, Goredrinker, Black Cleaver, Sterak's Gage.
+    Counters: Master Yi, Diana, Karthus jungle, Olaf, Lillia.
+    Counters to: Yasuo, Yone, Karma, Lulu, Janna.
+    Pro mains / streamers: Tarzaned.
+    Pick when: comp needs early aggressive jungler with snowball potential.
+
+Leona:
+  profile: |
+    Leona Radiant Dawn. Support tank with engage CC kit.
+    Identity: shield-of-daybreak engager, R AOE stun, point-and-click CC.
+    Strengths: best engage support, lane bully, CC chain, tankiness.
+    Weaknesses: low damage, kited by ranged, weak post-laning.
+    Scaling: scales with tank items.
+    Power spikes: level 2 (E+Q combo), Locket of the Iron Solari.
+    Key items: Locket of the Iron Solari, Knight's Vow, Zeke's Convergence, Thornmail.
+    Counters: Janna, Lulu, Morgana, Karma, Soraka.
+    Counters to: Senna, Sona, Yuumi, Lulu, Karma.
+    Pro mains / streamers: CoreJJ, Mikyx.
+    Pick when: ADC has all-in potential, comp needs hard engage.
+
+Lillia:
+  profile: |
+    Lillia the Bashful Bloom. Jungle AP fighter with passive damage.
+    Identity: passive-damage AP fighter, R sleep AOE, kiting potential.
+    Strengths: AOE damage, late-game scaling, fast clear, R utility.
+    Weaknesses: weak ganks, item-dependent, low burst.
+    Scaling: scales with AP fighter items into mid-late.
+    Power spikes: level 6 (R), Liandry's Torment, level 11.
+    Key items: Liandry's Torment, Riftmaker, Zhonya's Hourglass, Demonic Embrace.
+    Counters: Master Yi, Diana, Lee Sin, Karthus jungle, Olaf.
+    Counters to: Sett, Garen, Aatrox, Yasuo, Yone.
+    Pro mains / streamers: varies.
+    Pick when: comp needs AOE jungler with late-game scaling.
+
+Lissandra:
+  profile: |
+    Lissandra the Ice Witch. Mid lane control mage.
+    Identity: ice-bound mage, R self-stasis or enemy-stasis, AOE roots.
+    Strengths: anti-assassin (R stasis), CC chain, lane bully.
+    Weaknesses: low burst late, mana issues, immobile.
+    Scaling: scales with AP control items.
+    Power spikes: level 6 (R), Liandry's Torment, Rabadon's Deathcap.
+    Key items: Liandry's Torment, Rabadon's Deathcap, Zhonya's Hourglass, Cosmic Drive.
+    Counters: Yasuo, Cassiopeia, Anivia, Karthus, Vladimir.
+    Counters to: Akali, Yasuo, LeBlanc, Fizz, Katarina.
+    Pro mains / streamers: varies.
+    Pick when: enemy comp has assassins, you need anti-dive mage with CC.
+
+Lucian:
+  profile: |
+    Lucian the Purifier. ADC marksman with passive double-shot.
+    Identity: dash-and-shoot ADC, R rapid-fire ult, lane bully.
+    Strengths: lane bully, mobility via E, snowball threat, AS scaling.
+    Weaknesses: short range, no peel, falls off late vs hypercarries.
+    Scaling: power-pick early to mid, falls off late.
+    Power spikes: level 6 (R), 2-item crit spike.
+    Key items: Essence Reaver, Navori Flickerblade, Infinity Edge, Lord Dominik's Regards.
+    Counters: Caitlyn, Aphelios, Varus, Vayne, Smolder.
+    Counters to: Senna, Sona, Yuumi, Karthus ADC, Soraka.
+    Pro mains / streamers: Doublelift.
+    Pick when: comp needs early aggressive ADC paired with engage support like Nami.
+
+Lulu:
+  profile: |
+    Lulu the Fae Sorceress. Support enchanter with peel and team buffs.
+    Identity: hyper-carry pocket support, R Wild Growth shields and knocks up, polymorph CC.
+    Strengths: best peel for ADC and assassins, teamfight enabler, strong scaling.
+    Weaknesses: weak laning vs aggressive supports, no engage, immobile.
+    Scaling: scales with hyper-carry on team (Kog'Maw, Vayne, Twitch, Jinx).
+    Power spikes: level 6 (R), Ardent Censer, Moonstone Renewer.
+    Key items: Moonstone Renewer, Ardent Censer, Staff of Flowing Water, Mikael's Blessing.
+    Counters: Leona, Nautilus, Pyke, Blitzcrank, Thresh.
+    Counters to: Zed, Talon, Kha'Zix, LeBlanc, Master Yi.
+    Pro mains / streamers: CoreJJ, Mikyx.
+    Pick when: team has hyper-carry that needs peel, vs heavy dive or assassin comp.
+
+Lux:
+  profile: |
+    Lux the Lady of Luminosity. Mid or support mage with skillshot kit.
+    Identity: skillshot binding mage, R laser execute, lane bully.
+    Strengths: long-range poke, R execute, snowball threat.
+    Weaknesses: skillshot-reliant, weak vs mobility, immobile.
+    Scaling: scales with full AP items into late.
+    Power spikes: level 6 (R), Luden's Companion, Rabadon's Deathcap.
+    Key items: Luden's Companion, Shadowflame, Rabadon's Deathcap, Zhonya's Hourglass.
+    Counters: Yasuo, Talon, Zed, LeBlanc, Kassadin.
+    Counters to: Garen, Renekton, Riven, Cassiopeia, Karma.
+    Pro mains / streamers: varies.
+    Pick when: comp needs poke mage or support, vs immobile enemies.
+
+Malphite:
+  profile: |
+    Malphite Shard of the Monolith. Top lane tank with AP burst potential.
+    Identity: armor-stacking AP tank, point-and-click engage ult, lane bully into AD.
+    Strengths: hard counter to AD top laners, game-winning ult, simple to pilot.
+    Weaknesses: weak vs AP/ranged tops, mana issues early, kit reveals during ult cast.
+    Scaling: strong all game if engage hits, falls off if disengaged or kited.
+    Power spikes: level 6 (R unlocks teamfight engage), Sunfire/Iceborn first item.
+    Key items: Sunfire Aegis, Iceborn Gauntlet, Thornmail (vs AD), Force of Nature (vs AP).
+    Counters: Vladimir, Gangplank, Teemo, Kennen, Rumble.
+    Counters to: Riven, Camille, Tryndamere, Yasuo, Yone.
+    Pro mains / streamers: Zeus.
+    Pick when: enemy has 3+ AD champions, you need teamfight engage, beginner-friendly tank.
+
+Malzahar:
+  profile: |
+    Malzahar the Prophet of the Void. Mid lane control mage with R suppression.
+    Identity: voidling-summoning mage, R point-and-click suppression, anti-assassin shield.
+    Strengths: anti-assassin (passive shield), reliable point-and-click ult, wave clear.
+    Weaknesses: low burst late, immobile, mana issues early.
+    Scaling: scales with full AP items into mid-late.
+    Power spikes: level 6 (R), Liandry's Torment, Rabadon's Deathcap.
+    Key items: Liandry's Torment, Rabadon's Deathcap, Zhonya's Hourglass, Cosmic Drive.
+    Counters: Yasuo, Annie, Veigar, Cassiopeia, Karthus.
+    Counters to: Zed, Akali, Fizz, Katarina, Yasuo.
+    Pro mains / streamers: varies.
+    Pick when: enemy comp has assassins, you need anti-dive mage with reliable CC.
+
+Maokai:
+  profile: |
+    Maokai the Twisted Treant. Top or support tank with sapling damage.
+    Identity: sapling-stacking tank, R AOE roots, regen sustain.
+    Strengths: lane sustain, AOE CC engage, late-game scaler.
+    Weaknesses: kited by ranged tops, weak early, mana issues.
+    Scaling: scales with tank items into late.
+    Power spikes: level 6 (R), Sunfire Aegis, level 11.
+    Key items: Sunfire Aegis, Heartsteel, Thornmail (vs AD), Force of Nature (vs AP).
+    Counters: Vladimir, Gangplank, Teemo, Kennen, Quinn.
+    Counters to: Yasuo, Yone, Riven, Aatrox, Renekton.
+    Pro mains / streamers: varies.
+    Pick when: comp needs tank engage with late-game scaling.
+
+Master Yi:
+  profile: |
+    Master Yi the Wuju Bladesman. Jungle AD assassin with R movement speed.
+    Identity: alpha-strike assassin, R reset on takedown, AS scaling.
+    Strengths: late-game hypercarry, snowball reset potential, simple to pilot.
+    Weaknesses: weak vs heavy CC, item-dependent, no escape outside Q.
+    Scaling: scales with crit and on-hit items into late.
+    Power spikes: level 6 (R), 2-item crit spike, level 11.
+    Key items: Kraken Slayer, Wit's End, Phantom Dancer, Bloodthirster.
+    Counters: Lee Sin, Diana, Karthus jungle, Olaf, Lillia.
+    Counters to: Yasuo, Yone, Akali, Katarina, Veigar.
+    Pro mains / streamers: varies.
+    Pick when: comp can keep enemies CC'd for Master Yi to clean up, late game priority.
+
+Mel:
+  profile: |
+    Mel Medarda. Mid lane mage with reflective shield.
+    Identity: reflect-shield mage with AOE damage and CC.
+    Strengths: reflect shield blocks burst, AOE damage, lane bully.
+    Weaknesses: needs to land skillshots, weak vs aggro, mana-hungry early.
+    Scaling: scales with full AP items into late.
+    Power spikes: level 6 (R), Luden's Companion, Rabadon's Deathcap.
+    Key items: Luden's Companion, Shadowflame, Rabadon's Deathcap, Zhonya's Hourglass.
+    Counters: Yasuo, Talon, Zed, Fizz, Kassadin.
+    Counters to: Lux, Vex, Twisted Fate, Veigar, Heimerdinger.
+    Pro mains / streamers: varies.
+    Pick when: enemy comp has burst assassins, you want mage with damage block.
+
+Milio:
+  profile: |
+    Milio the Gentle Flame. Support enchanter with cleanse-CC ult.
+    Identity: ranged-empower enchanter, R AOE cleanse, shields and heals.
+    Strengths: ranged AA buff for ADC, cleanse all CC via R, sustain.
+    Weaknesses: low damage, no engage, weak laning vs aggro.
+    Scaling: scales with utility items.
+    Power spikes: level 6 (R), Moonstone Renewer.
+    Key items: Moonstone Renewer, Ardent Censer, Staff of Flowing Water, Mikael's Blessing.
+    Counters: Leona, Nautilus, Pyke, Blitzcrank, Thresh.
+    Counters to: Senna, Sona, Yuumi, Lulu, Karma.
+    Pro mains / streamers: varies.
+    Pick when: ADC needs ranged AA buff, comp needs cleanse for CC-heavy enemies.
+
+Miss Fortune:
+  profile: |
+    Miss Fortune the Bounty Hunter. ADC marksman with bullet-time ult.
+    Identity: AOE damage ADC, R bullet-time channel, lane bully.
+    Strengths: AOE damage in teamfights, lane bully, snowball threat.
+    Weaknesses: low mobility, channeled ult vulnerable to CC.
+    Scaling: scales with crit and lethality items.
+    Power spikes: level 6 (R), 2-item crit spike.
+    Key items: Collector, Infinity Edge, Lord Dominik's Regards, Phantom Dancer.
+    Counters: Draven, Lucian, Tristana, Samira, Vayne.
+    Counters to: Senna, Sivir, Aphelios, Karthus ADC, Smolder.
+    Pro mains / streamers: varies.
+    Pick when: comp needs AOE teamfight ADC with engage follow-up.
+
+Mordekaiser:
+  profile: |
+    Mordekaiser the Iron Revenant. Top lane juggernaut with R isolation.
+    Identity: 1v1 isolation realm, R Death Realm, AP juggernaut.
+    Strengths: 1v1 dominance via R, anti-carry pick, lane bully.
+    Weaknesses: kited by ranged tops, no mobility, item-dependent.
+    Scaling: scales with AP juggernaut items.
+    Power spikes: level 6 (R), Riftmaker, level 11.
+    Key items: Riftmaker, Sterak's Gage, Liandry's Torment, Demonic Embrace.
+    Counters: Vayne, Quinn, Teemo, Kayle, Gangplank.
+    Counters to: Yasuo, Yone, Akali, Garen, Sett.
+    Pro mains / streamers: varies.
+    Pick when: enemy has carry top or mid you can isolate via R.
+
+Morgana:
+  profile: |
+    Morgana the Fallen. Support or mid lane mage with binding root.
+    Identity: black-shield-immunity support, point-and-click root, R AOE bind.
+    Strengths: anti-CC via Black Shield, lane bully, R AOE setup.
+    Weaknesses: skillshot-reliant Q, mana issues, immobile.
+    Scaling: scales with utility-AP items.
+    Power spikes: level 6 (R), Liandry's Torment, Rabadon's Deathcap.
+    Key items: Liandry's Torment, Rabadon's Deathcap, Zhonya's Hourglass, Sorcerer's Shoes.
+    Counters: Leona, Nautilus, Pyke, Blitzcrank, Thresh.
+    Counters to: Senna, Sona, Yuumi, Lulu, Karma.
+    Pro mains / streamers: varies.
+    Pick when: enemy comp has heavy CC, ADC needs Black Shield protection.
+
+Naafiri:
+  profile: |
+    Naafiri the Hound of a Hundred Bites. Mid lane AD assassin with dog packs.
+    Identity: dog-pack assassin, R unleashes dogs, simple-kit assassin.
+    Strengths: simple to pilot, snowball threat, AOE damage.
+    Weaknesses: weak vs ranged mages, item-dependent, no escape pre-6.
+    Scaling: scales with AD assassin items.
+    Power spikes: level 6 (R), Eclipse, level 11.
+    Key items: Eclipse, Edge of Night, Youmuu's Ghostblade, Serylda's Grudge.
+    Counters: Galio, Pantheon, Lissandra, Annie, Malzahar.
+    Counters to: Lux, Vex, Twisted Fate, Veigar, Heimerdinger.
+    Pro mains / streamers: varies.
+    Pick when: enemy mid is squishy, you want simple AD assassin.
+
+Nami:
+  profile: |
+    Nami the Tidecaller. Support enchanter with bubble stun.
+    Identity: bubble-stun enchanter, R AOE knockup, AA-empowering W.
+    Strengths: snowball lane via Q stun, R wave knockup, sustain.
+    Weaknesses: low range, mana issues, no engage outside R.
+    Scaling: scales with utility items.
+    Power spikes: level 6 (R), Moonstone Renewer.
+    Key items: Moonstone Renewer, Ardent Censer, Staff of Flowing Water, Mikael's Blessing.
+    Counters: Leona, Nautilus, Pyke, Blitzcrank, Thresh.
+    Counters to: Senna, Sona, Yuumi, Lulu, Soraka.
+    Pro mains / streamers: CoreJJ.
+    Pick when: ADC has all-in potential paired with bubble stun.
+
+Nasus:
+  profile: |
+    Nasus the Curator of the Sands. Top lane juggernaut with Q-stack scaling.
+    Identity: Q-stacking late-game juggernaut, R massive HP boost, simple kit.
+    Strengths: infinite Q scaling, lane sustain via E, late-game hyperscaler.
+    Weaknesses: weak laning, kited by ranged tops, no mobility.
+    Scaling: weak early, monstrous late-game hyperscaler.
+    Power spikes: 100+ Q stacks, Trinity Force, level 11.
+    Key items: Trinity Force, Sterak's Gage, Spirit Visage, Force of Nature.
+    Counters: Vayne, Quinn, Teemo, Gangplank, Kennen.
+    Counters to: Yasuo, Yone, Riven, Akali, Camille.
+    Pro mains / streamers: varies.
+    Pick when: comp can protect scaling juggernaut, late game priority.
+
+Nautilus:
+  profile: |
+    Nautilus Titan of the Depths. Support tank with hook engage.
+    Identity: anchor-hook engage, R point-and-click ult, passive root.
+    Strengths: hook engage, R guaranteed CC, lane bully, tankiness.
+    Weaknesses: kited by ranged, weak post-laning, slow.
+    Scaling: scales with tank items.
+    Power spikes: level 6 (R), Locket of the Iron Solari.
+    Key items: Locket of the Iron Solari, Knight's Vow, Zeke's Convergence, Thornmail.
+    Counters: Janna, Lulu, Morgana, Soraka, Karma.
+    Counters to: Senna, Sona, Yuumi, Lulu, Soraka.
+    Pro mains / streamers: CoreJJ, Mikyx.
+    Pick when: ADC has all-in potential, comp needs hard engage from support.
+
+Neeko:
+  profile: |
+    Neeko the Curious Chameleon. Mid lane mage with disguise.
+    Identity: disguise-as-ally mage, R AOE root, snowball threat.
+    Strengths: disguise outplay potential, AOE damage, lane bully.
+    Weaknesses: skillshot-reliant, mana issues, immobile.
+    Scaling: scales with full AP items into mid-late.
+    Power spikes: level 6 (R), Liandry's Torment, Rabadon's Deathcap.
+    Key items: Liandry's Torment, Rabadon's Deathcap, Zhonya's Hourglass, Cosmic Drive.
+    Counters: Yasuo, Talon, Zed, LeBlanc, Kassadin.
+    Counters to: Lux, Vex, Twisted Fate, Karthus mid, Veigar.
+    Pro mains / streamers: varies.
+    Pick when: comp needs AOE mage with outplay potential.
+
+Nidalee:
+  profile: |
+    Nidalee the Bestial Huntress. Jungle AP-AD hybrid hunter.
+    Identity: cougar-form hunter, javelin from range, R form transformation.
+    Strengths: long-range poke via Q, snowball ganks, fast clear.
+    Weaknesses: skillshot-reliant, falls off late, item-dependent.
+    Scaling: power-pick early to mid, falls off late.
+    Power spikes: level 6 (R), Hextech Rocketbelt, level 11.
+    Key items: Hextech Rocketbelt, Sorcerer's Shoes, Liandry's Torment, Lich Bane.
+    Counters: Master Yi, Olaf, Lillia, Karthus jungle, Diana.
+    Counters to: Yasuo, Yone, Akali, Karma, Janna.
+    Pro mains / streamers: varies.
+    Pick when: comp needs early aggressive jungler with poke threat.
+
+Nilah:
+  profile: |
+    Nilah the Joy Unbound. ADC fighter-marksman with melee range.
+    Identity: melee-ADC sword, R AOE pull, lifesteal-shared passive.
+    Strengths: lifesteal-share with team, AOE pull, late-game scaling.
+    Weaknesses: melee range vulnerability, no escape pre-items.
+    Scaling: scales with crit and lifesteal items.
+    Power spikes: 2-item crit spike, level 11.
+    Key items: Blade of the Ruined King, Bloodthirster, Phantom Dancer, Sterak's Gage.
+    Counters: Caitlyn, Aphelios, Varus, Ezreal, Smolder.
+    Counters to: Sivir, Senna, Karthus ADC, Kog'Maw, Twitch.
+    Pro mains / streamers: varies.
+    Pick when: comp can engage and protect melee-range ADC.
+
+Nocturne:
+  profile: |
+    Nocturne the Eternal Nightmare. Jungle AD assassin with global ult.
+    Identity: paranoia-fear assassin, R global jump, anti-skillshot W shield.
+    Strengths: global ult engage, fear in teamfights, snowball threat.
+    Weaknesses: weak ganks pre-6, item-dependent, no escape.
+    Scaling: scales with AD assassin items.
+    Power spikes: level 6 (R), Eclipse, level 11.
+    Key items: Eclipse, Black Cleaver, Sterak's Gage, Death's Dance.
+    Counters: Master Yi, Diana, Karthus jungle, Olaf, Lillia.
+    Counters to: Lux, Vex, Heimerdinger, Karma, Lulu.
+    Pro mains / streamers: varies.
+    Pick when: comp needs global engage from jungle, snowball priority.
+
+Nunu & Willump:
+  profile: |
+    Nunu the Boy and Yeti. Jungle tank-mage with snowball R.
+    Identity: snowball-rolling jungler, R AOE damage and fear, sustain via Q.
+    Strengths: AOE damage, R teamfight engage, sustain, simple kit.
+    Weaknesses: skillshot-reliant, mana issues, low burst.
+    Scaling: scales with AP-tank items.
+    Power spikes: level 6 (R), Liandry's Torment, level 11.
+    Key items: Liandry's Torment, Riftmaker, Sunfire Aegis, Rylai's Crystal Scepter.
+    Counters: Lee Sin, Elise, Karthus jungle, Olaf, Kindred.
+    Counters to: Sett, Garen, Aatrox, Yasuo, Yone.
+    Pro mains / streamers: varies.
+    Pick when: comp needs AP tank jungler with AOE damage.
+
+Olaf:
+  profile: |
+    Olaf the Berserker. Top or jungle juggernaut with R unstoppable.
+    Identity: axe-throwing juggernaut, R unstoppable to CC, sustain via W.
+    Strengths: anti-CC via R, lane bully, snowball threat.
+    Weaknesses: kited by ranged, no mobility, item-dependent.
+    Scaling: power-pick early to mid, falls off late.
+    Power spikes: level 6 (R), Eclipse, level 11.
+    Key items: Eclipse, Sterak's Gage, Death's Dance, Stridebreaker.
+    Counters: Vayne, Quinn, Teemo, Gnar, Fiora.
+    Counters to: Aatrox, Garen, Mordekaiser, Yasuo, Yone.
+    Pro mains / streamers: varies.
+    Pick when: comp needs anti-CC juggernaut, you want lane bully.
+
+Orianna:
+  profile: |
+    Orianna the Lady of Clockwork. Mid lane control mage.
+    Identity: ball-controlling mage, R AOE pull, late-game teamfight scaler.
+    Strengths: AOE damage, R Shockwave teamfight setup, lane bully.
+    Weaknesses: immobile, skillshot-reliant, mana issues early.
+    Scaling: scales with full AP items into late.
+    Power spikes: level 6 (R), Luden's Companion, Rabadon's Deathcap.
+    Key items: Luden's Companion, Shadowflame, Rabadon's Deathcap, Zhonya's Hourglass.
+    Counters: Yasuo, Talon, Zed, LeBlanc, Kassadin.
+    Counters to: Garen, Renekton, Lux, Vex, Karma.
+    Pro mains / streamers: Faker, Caps.
+    Pick when: comp clumps in teamfights, you need late-game AOE setup.
+
+Ornn:
+  profile: |
+    Ornn the Fire Below the Mountain. Top lane tank with item upgrades.
+    Identity: anvil-summoning tank, R AOE knockup, item upgrade utility.
+    Strengths: tankiness, AOE engage, item upgrades for team, late-game scaler.
+    Weaknesses: weak laning, kited by ranged, mana issues.
+    Scaling: scales with tank items into late.
+    Power spikes: level 6 (R), Sunfire Aegis, level 11.
+    Key items: Sunfire Aegis, Heartsteel, Thornmail, Force of Nature.
+    Counters: Vayne, Quinn, Teemo, Gangplank, Vladimir.
+    Counters to: Yasuo, Yone, Riven, Aatrox, Renekton.
+    Pro mains / streamers: varies.
+    Pick when: comp needs tank with utility, late-game scaling priority.
+
+Pantheon:
+  profile: |
+    Pantheon the Unbreakable Spear. Top, mid, or support warrior.
+    Identity: spear-throwing warrior, R global jump, lane bully.
+    Strengths: lane bully, global ult, snowball threat, kit flexibility.
+    Weaknesses: falls off late, item-dependent, no escape.
+    Scaling: power-pick early to mid, falls off late.
+    Power spikes: level 6 (R), Eclipse, level 11.
+    Key items: Eclipse, Black Cleaver, Sterak's Gage, Death's Dance.
+    Counters: Vayne, Quinn, Teemo, Gangplank, Vladimir.
+    Counters to: Yasuo, Yone, Riven, Aatrox, Akali.
+    Pro mains / streamers: varies.
+    Pick when: comp needs global engage with snowball lane phase.
+
+Poppy:
+  profile: |
+    Poppy Keeper of the Hammer. Top or jungle tank-fighter.
+    Identity: anti-mobility tank, R AOE knockback, passive shield.
+    Strengths: anti-dash kit (W), R teamfight setup, lane bully.
+    Weaknesses: weak vs ranged tops, item-dependent, slow.
+    Scaling: scales with tank items into late.
+    Power spikes: level 6 (R), Sunfire Aegis, level 11.
+    Key items: Sunfire Aegis, Iceborn Gauntlet, Thornmail, Force of Nature.
+    Counters: Vayne, Quinn, Teemo, Gnar, Vladimir.
+    Counters to: Yasuo, Yone, Riven, Aatrox, Camille.
+    Pro mains / streamers: varies.
+    Pick when: enemy has dash-heavy comp, you need anti-mobility tank.
+
+Pyke:
+  profile: |
+    Pyke the Bloodharbor Ripper. Support assassin with hook engage.
+    Identity: hook-and-stun support assassin, R execute resets, share gold passive.
+    Strengths: hook engage, R execute snowball, mobility, lane bully.
+    Weaknesses: squishy, kited by ranged, no peel for ADC.
+    Scaling: power-pick early to mid, falls off late.
+    Power spikes: level 6 (R), Hubris, Edge of Night.
+    Key items: Hubris, Edge of Night, Youmuu's Ghostblade, Serylda's Grudge.
+    Counters: Lulu, Janna, Soraka, Karma, Morgana.
+    Counters to: Senna, Sona, Yuumi, Soraka, Lulu.
+    Pro mains / streamers: varies.
+    Pick when: comp needs assassin support with snowball lane.
+
+Qiyana:
+  profile: |
+    Qiyana Empress of the Elements. Mid lane AD assassin with element kit.
+    Identity: element-swapping assassin, R AOE wall stun, snowball threat.
+    Strengths: AOE damage via R, element flexibility, snowball threat.
+    Weaknesses: terrain-dependent, item-dependent, mana issues early.
+    Scaling: scales with AD assassin items.
+    Power spikes: level 6 (R), Eclipse, level 11.
+    Key items: Eclipse, Edge of Night, Youmuu's Ghostblade, Serylda's Grudge.
+    Counters: Galio, Pantheon, Lissandra, Annie, Malzahar.
+    Counters to: Lux, Vex, Twisted Fate, Karthus mid, Veigar.
+    Pro mains / streamers: varies.
+    Pick when: comp clumps near walls, you want AD assassin with AOE setup.
+
+Quinn:
+  profile: |
+    Quinn Demacia's Wings. Top lane ranged assassin-marksman.
+    Identity: bird-form scout, R global mobility, lane bully ranged.
+    Strengths: lane bully vs melee, global mobility via R, snowball threat.
+    Weaknesses: weak vs ranged tops, falls off late, no team utility.
+    Scaling: power-pick early to mid, falls off late.
+    Power spikes: level 6 (R), Eclipse, level 11.
+    Key items: Eclipse, Black Cleaver, Edge of Night, Lord Dominik's Regards.
+    Counters: Caitlyn, Aphelios, Varus, Vayne, Smolder.
+    Counters to: Aatrox, Garen, Mordekaiser, Yasuo, Yone.
+    Pro mains / streamers: varies.
+    Pick when: enemy top is melee bruiser, comp needs split-pusher.
+
+Rakan:
+  profile: |
+    Rakan the Charmer. Support engage enchanter (Xayah's lover).
+    Identity: dash-engage enchanter, R AOE charm, mobility-heavy support.
+    Strengths: mobility, R AOE engage, lane synergy with Xayah.
+    Weaknesses: squishy, weak peel, item-dependent.
+    Scaling: scales with utility-tank items.
+    Power spikes: level 6 (R), Locket of the Iron Solari.
+    Key items: Locket of the Iron Solari, Knight's Vow, Zeke's Convergence, Mikael's Blessing.
+    Counters: Janna, Lulu, Morgana, Karma, Soraka.
+    Counters to: Senna, Sona, Yuumi, Soraka, Lulu.
+    Pro mains / streamers: CoreJJ, Mikyx.
+    Pick when: comp needs mobile engage support, paired with Xayah ideally.
+
+Rammus:
+  profile: |
+    Rammus the Armordillo. Jungle tank with AOE taunt.
+    Identity: armor-stacking tank, R AOE damage, point-and-click taunt.
+    Strengths: anti-AD tank, snowball ganks, AOE taunt teamfight.
+    Weaknesses: weak vs AP, kited by ranged, low damage.
+    Scaling: scales with armor and HP items.
+    Power spikes: level 6 (R), Sunfire Aegis, Thornmail.
+    Key items: Sunfire Aegis, Thornmail, Iceborn Gauntlet, Heartsteel.
+    Counters: Karthus jungle, Lee Sin, Diana, Brand jungle, Lillia.
+    Counters to: Master Yi, Tryndamere, Yasuo, Yone, Riven.
+    Pro mains / streamers: varies.
+    Pick when: enemy comp has 3+ AD champions, you need armor tank.
+
+Rek'Sai:
+  profile: |
+    Rek'Sai the Void Burrower. Jungle bruiser with burrowed mode.
+    Identity: tunnel-burrowing bruiser, R global jump to ally, fury kit.
+    Strengths: snowball ganks, R global mobility, sustained damage.
+    Weaknesses: weak laning, kited by ranged, falls off late.
+    Scaling: power-pick early to mid, falls off late.
+    Power spikes: level 6 (R), Black Cleaver, level 11.
+    Key items: Black Cleaver, Sterak's Gage, Death's Dance, Trinity Force.
+    Counters: Master Yi, Diana, Karthus jungle, Olaf, Lillia.
+    Counters to: Lee Sin, Elise, Vi, Jarvan IV, Xin Zhao.
+    Pro mains / streamers: varies.
+    Pick when: comp needs early aggressive jungler with snowball ganks.
+
+Rell:
+  profile: |
+    Rell the Iron Maiden. Support tank with magnet ult.
+    Identity: magnet-stun engage, R AOE pull, kit synergy with allies.
+    Strengths: hard engage, AOE CC, peel for ADC.
+    Weaknesses: slow, kited by ranged, mana issues.
+    Scaling: scales with tank items.
+    Power spikes: level 2 (W stun), level 6 (R), Locket of the Iron Solari.
+    Key items: Locket of the Iron Solari, Knight's Vow, Zeke's Convergence, Thornmail.
+    Counters: Lulu, Janna, Soraka, Karma, Morgana.
+    Counters to: Senna, Sona, Yuumi, Lulu, Soraka.
+    Pro mains / streamers: varies.
+    Pick when: ADC has all-in potential, comp needs hard engage tank support.
+
+Renata Glasc:
+  profile: |
+    Renata Glasc the Chem-Baroness. Support enchanter with R berserk.
+    Identity: chemistry-utility support, R AOE berserk (forces enemies to attack each other).
+    Strengths: R unique CC, sustain shields, lane utility.
+    Weaknesses: squishy, weak laning, no engage.
+    Scaling: scales with utility items.
+    Power spikes: level 6 (R), Moonstone Renewer.
+    Key items: Moonstone Renewer, Ardent Censer, Staff of Flowing Water, Mikael's Blessing.
+    Counters: Leona, Nautilus, Pyke, Blitzcrank, Thresh.
+    Counters to: Senna, Sona, Yuumi, Lulu, Karma.
+    Pro mains / streamers: varies.
+    Pick when: comp needs unique R berserk, ADC needs sustain.
+
+Renekton:
+  profile: |
+    Renekton the Butcher of the Sands. Top lane juggernaut.
+    Identity: dash-bruiser juggernaut, fury-stack empowered abilities, R AOE damage.
+    Strengths: lane bully, snowball threat, AOE damage in teamfights.
+    Weaknesses: kited by ranged tops, falls off late, no escape.
+    Scaling: power-pick early to mid, falls off late.
+    Power spikes: level 6 (R), Eclipse, level 11.
+    Key items: Eclipse, Black Cleaver, Sterak's Gage, Death's Dance.
+    Counters: Vayne, Quinn, Teemo, Gnar, Fiora.
+    Counters to: Aatrox, Garen, Mordekaiser, Yasuo, Yone.
+    Pro mains / streamers: varies.
+    Pick when: enemy top is melee bruiser, you want snowball lane bully.
+
+Rengar:
+  profile: |
+    Rengar the Pridestalker. Jungle AD assassin with bush invisibility.
+    Identity: bush-leap assassin, R global stealth, ferocity-stack burst.
+    Strengths: invisible bush leap, snowball threat, target access.
+    Weaknesses: terrain-dependent, item-dependent, falls off late.
+    Scaling: power-pick early to mid, falls off late.
+    Power spikes: level 6 (R), Eclipse, level 11.
+    Key items: Eclipse, Edge of Night, Youmuu's Ghostblade, Serylda's Grudge.
+    Counters: Master Yi, Diana, Karthus jungle, Olaf, Lillia.
+    Counters to: Yasuo, Yone, Akali, Karma, Lulu.
+    Pro mains / streamers: varies.
+    Pick when: comp has bushes near objectives, you want AD assassin pick threat.
+
+Riven:
+  profile: |
+    Riven the Exile. Top lane skirmisher with combo kit.
+    Identity: animation-canceling skirmisher, R empowered abilities, mechanical.
+    Strengths: high outplay potential, snowball threat, late-game duelist.
+    Weaknesses: weak vs hard CC, item-dependent, mechanically punishing.
+    Scaling: scales with bruiser items into late.
+    Power spikes: level 6 (R), Eclipse, level 11.
+    Key items: Eclipse, Sundered Sky, Sterak's Gage, Death's Dance.
+    Counters: Renekton, Pantheon, Malphite, Sett, Quinn.
+    Counters to: Aatrox, Garen, Mordekaiser, Yasuo, Yone.
+    Pro mains / streamers: Box Box, Adrian Riven.
+    Pick when: comp needs split-pusher with high outplay potential.
+
+Rumble:
+  profile: |
+    Rumble the Mechanized Menace. Top lane AP fighter with mech.
+    Identity: heat-stack mech fighter, R AOE damage zone, anti-melee.
+    Strengths: anti-melee tops, AOE teamfight setup, ranged poke.
+    Weaknesses: heat management, mana-less but heat-locked, falls off vs full peel.
+    Scaling: scales with AP fighter items into mid-late.
+    Power spikes: level 6 (R), Liandry's Torment, level 11.
+    Key items: Liandry's Torment, Sorcerer's Shoes, Riftmaker, Demonic Embrace.
+    Counters: Vladimir, Cassiopeia, Karthus, Heimerdinger, Quinn.
+    Counters to: Aatrox, Garen, Mordekaiser, Renekton, Sett.
+    Pro mains / streamers: varies.
+    Pick when: comp needs AOE teamfight setup top with anti-melee.
+
+Ryze:
+  profile: |
+    Ryze the Rune Mage. Mid lane mage with combo-stack damage.
+    Identity: spell-flux mage, R global teleport, late-game scaler.
+    Strengths: late-game scaler, R global utility, teamfight damage.
+    Weaknesses: weak laning, mana issues, item-dependent.
+    Scaling: scales hard with mana items into late.
+    Power spikes: level 6 (R), Manamune (Tear), Rod of Ages.
+    Key items: Manamune (Archangel's Staff), Rod of Ages, Rabadon's Deathcap, Zhonya's Hourglass.
+    Counters: Yasuo, Talon, Zed, LeBlanc, Kassadin.
+    Counters to: Garen, Lux, Vex, Twisted Fate, Karthus.
+    Pro mains / streamers: Faker.
+    Pick when: comp can protect scaling mage with global teleport.
+
+Samira:
+  profile: |
+    Samira the Desert Rose. ADC fighter-marksman with style passive.
+    Identity: style-stacking ADC, R AOE during S-rank style, melee-range bursts.
+    Strengths: AOE damage, snowball threat, late-game hyperscaler.
+    Weaknesses: melee range vulnerability, no escape pre-items.
+    Scaling: scales with crit and lifesteal items.
+    Power spikes: 2-item crit spike, level 11.
+    Key items: Collector, Infinity Edge, Bloodthirster, Phantom Dancer.
+    Counters: Caitlyn, Aphelios, Varus, Ezreal, Smolder.
+    Counters to: Senna, Sivir, Karthus ADC, Soraka, Yuumi.
+    Pro mains / streamers: varies.
+    Pick when: comp can engage and protect AOE melee ADC.
+
+Sejuani:
+  profile: |
+    Sejuani Fury of the North. Jungle tank with frost CC ult.
+    Identity: frost-engage tank, R AOE stun (long-range), passive freeze.
+    Strengths: hard engage, AOE CC, R global stun, tankiness.
+    Weaknesses: weak ganks pre-6, kited by ranged, mana issues.
+    Scaling: scales with tank items into late.
+    Power spikes: level 6 (R), Sunfire Aegis, level 11.
+    Key items: Sunfire Aegis, Iceborn Gauntlet, Thornmail, Force of Nature.
+    Counters: Karthus jungle, Lee Sin, Diana, Brand jungle, Lillia.
+    Counters to: Master Yi, Yasuo, Yone, Riven, Akali.
+    Pro mains / streamers: varies.
+    Pick when: comp needs tank engage with global CC, late game scaling.
+
+Senna:
+  profile: |
+    Senna the Redeemer. ADC or support marksman with soul stacks.
+    Identity: soul-stacking ADC-support, R global ult, range-stacking passive.
+    Strengths: scales infinitely with souls, lane utility, R global save.
+    Weaknesses: weak laning vs aggro, low base damage, no escape.
+    Scaling: scales hard with souls and crit into late.
+    Power spikes: level 6 (R), 2-item lethality+crit spike.
+    Key items: Manamune, Black Cleaver, Infinity Edge, Lord Dominik's Regards.
+    Counters: Draven, Lucian, Tristana, Samira, Vayne.
+    Counters to: Aphelios early, Karthus ADC, Sivir, Yuumi, Soraka.
+    Pro mains / streamers: CoreJJ, Doublelift.
+    Pick when: comp needs flex carry-support with global save potential.
+
+Seraphine:
+  profile: |
+    Seraphine the Starry-Eyed Songstress. Mid or support mage.
+    Identity: empowered-3-cast mage, R AOE charm, kit flexibility.
+    Strengths: AOE damage, lane sustain, R teamfight charm setup.
+    Weaknesses: skillshot-reliant, mana issues, immobile.
+    Scaling: scales with full AP items into late.
+    Power spikes: level 6 (R), Luden's Companion, Rabadon's Deathcap.
+    Key items: Luden's Companion, Shadowflame, Rabadon's Deathcap, Zhonya's Hourglass.
+    Counters: Yasuo, Talon, Zed, LeBlanc, Kassadin.
+    Counters to: Garen, Renekton, Lux, Karma, Lulu.
+    Pro mains / streamers: varies.
+    Pick when: comp needs AOE poke and teamfight setup.
+
+Sett:
+  profile: |
+    Sett the Boss. Top or support brawler.
+    Identity: punch-stack brawler, R suplex AOE damage, lane bully.
+    Strengths: lane bully, R suplex setup, snowball threat, simple kit.
+    Weaknesses: kited by ranged, no escape, falls off vs full peel.
+    Scaling: scales with bruiser items into mid-late.
+    Power spikes: level 6 (R), Sundered Sky, level 11.
+    Key items: Sundered Sky, Sterak's Gage, Death's Dance, Trinity Force.
+    Counters: Vayne, Quinn, Teemo, Gnar, Vladimir.
+    Counters to: Aatrox, Garen, Mordekaiser, Yasuo, Yone.
+    Pro mains / streamers: varies.
+    Pick when: enemy top is melee, comp needs simple snowball brawler.
+
+Shaco:
+  profile: |
+    Shaco the Demon Jester. Jungle assassin with stealth and clones.
+    Identity: invisible-stab assassin, R clone, AP or AD dual scaling.
+    Strengths: invisibility ganks, snowball threat, clone outplay.
+    Weaknesses: weak vs ward-heavy comps, item-dependent, falls off late.
+    Scaling: scales with assassin items.
+    Power spikes: level 6 (R), Eclipse, level 11.
+    Key items: Eclipse (AD), Hextech Rocketbelt (AP), Edge of Night, Youmuu's Ghostblade.
+    Counters: Master Yi, Diana, Karthus jungle, Olaf, Lillia.
+    Counters to: Yasuo, Yone, Akali, Karma, Lulu.
+    Pro mains / streamers: varies.
+    Pick when: enemy doesn't ward heavily, you want pick assassin jungle.
+
+Shen:
+  profile: |
+    Shen the Eye of Twilight. Top lane tank with global ult.
+    Identity: shield-and-taunt tank, R global teleport-shield, anti-AD passive.
+    Strengths: global utility via R, lane sustain, teamfight peel.
+    Weaknesses: low damage, mana-less but energy-locked.
+    Scaling: scales with tank items.
+    Power spikes: level 6 (R), Sunfire Aegis, level 11.
+    Key items: Sunfire Aegis, Iceborn Gauntlet, Thornmail, Force of Nature.
+    Counters: Vayne, Quinn, Teemo, Gangplank, Vladimir.
+    Counters to: Yasuo, Yone, Riven, Aatrox, Akali.
+    Pro mains / streamers: TheShy.
+    Pick when: comp needs split-pusher with global teamfight presence.
+
+Shyvana:
+  profile: |
+    Shyvana Half-Dragon. Jungle bruiser with dragon transformation.
+    Identity: fury-stacking bruiser, R dragon form, snowball threat.
+    Strengths: fast clear, late-game scaler, snowball threat.
+    Weaknesses: weak ganks pre-6, item-dependent.
+    Scaling: scales with on-hit items.
+    Power spikes: level 6 (R transform), Titanic Hydra, level 11.
+    Key items: Titanic Hydra, Black Cleaver, Sterak's Gage, Wit's End.
+    Counters: Master Yi, Karthus jungle, Olaf, Diana, Lillia.
+    Counters to: Sett, Garen, Aatrox, Yasuo, Yone.
+    Pro mains / streamers: varies.
+    Pick when: comp needs late-game bruiser jungler with scaling.
+
+Singed:
+  profile: |
+    Singed the Mad Chemist. Top lane AP fighter with poison trail.
+    Identity: poison-trail proxying AP fighter, R buff, anti-melee.
+    Strengths: lane bully via proxy, R sustained damage, anti-engage.
+    Weaknesses: kited by ranged, weak vs AP, no burst.
+    Scaling: scales with AP-tank items.
+    Power spikes: level 6 (R), Riftmaker, Liandry's Torment.
+    Key items: Riftmaker, Liandry's Torment, Rylai's Crystal Scepter, Demonic Embrace.
+    Counters: Vladimir, Cassiopeia, Vayne, Teemo, Gangplank.
+    Counters to: Yasuo, Yone, Riven, Aatrox, Renekton.
+    Pro mains / streamers: Sanchovies.
+    Pick when: enemy top is melee bruiser, you want proxy farm strategy.
+
+Sion:
+  profile: |
+    Sion the Undead Juggernaut. Top lane tank-juggernaut.
+    Identity: scream-engage tank, R AOE charge (long-range), passive zombie.
+    Strengths: lane sustain via zombie passive, R global engage, tankiness.
+    Weaknesses: kited by ranged tops, mana issues, slow.
+    Scaling: scales with HP and tank items.
+    Power spikes: level 6 (R), Heartsteel, level 11.
+    Key items: Heartsteel, Sunfire Aegis, Thornmail, Force of Nature.
+    Counters: Vayne, Quinn, Teemo, Gangplank, Vladimir.
+    Counters to: Yasuo, Yone, Riven, Aatrox, Sett.
+    Pro mains / streamers: varies.
+    Pick when: comp needs unkillable frontline tank with global engage.
+
+Sivir:
+  profile: |
+    Sivir the Battle Mistress. ADC marksman with spell shield.
+    Identity: boomerang-throwing ADC, R AOE movement speed, spell shield.
+    Strengths: anti-skillshot via E, wave clear, R team engage speed.
+    Weaknesses: short range, no mobility, weak laning.
+    Scaling: scales with crit items.
+    Power spikes: level 6 (R), 2-item crit spike.
+    Key items: Essence Reaver, Navori Flickerblade, Infinity Edge, Phantom Dancer.
+    Counters: Caitlyn, Aphelios, Varus, Vayne, Smolder.
+    Counters to: Senna, Sona, Yuumi, Karthus ADC, Soraka.
+    Pro mains / streamers: Doublelift.
+    Pick when: comp needs anti-skillshot ADC, R wave engage potential.
+
+Skarner:
+  profile: |
+    Skarner the Crystal Vanguard. Jungle bruiser with R suppression.
+    Identity: charge-and-grab bruiser, R suppression drag, sustain via Q passive.
+    Strengths: R guaranteed CC pick, sustain, snowball ganks.
+    Weaknesses: kited by ranged, item-dependent, no escape.
+    Scaling: scales with bruiser items into mid-late.
+    Power spikes: level 6 (R), Black Cleaver, level 11.
+    Key items: Black Cleaver, Sterak's Gage, Death's Dance, Trinity Force.
+    Counters: Master Yi, Diana, Karthus jungle, Olaf, Lillia.
+    Counters to: Yasuo, Yone, Akali, Karma, Lulu.
+    Pro mains / streamers: varies.
+    Pick when: enemy comp has carry you can isolate via R.
+
+Smolder:
+  profile: |
+    Smolder the Fierce Dragon Whelp. ADC scaling marksman.
+    Identity: Q-stacking late-game dragon, R AOE execute (high stack threshold).
+    Strengths: insane late-game scaling, AOE execute, lane bully late.
+    Weaknesses: weak laning, stack-dependent, no mobility.
+    Scaling: monstrous late-game hyperscaler.
+    Power spikes: 100+ Q stacks, level 11, R stack threshold.
+    Key items: Rod of Ages, Seraph's Embrace, Lich Bane, Zhonya's Hourglass.
+    Counters: Draven, Lucian, Tristana, Samira, Vayne.
+    Counters to: Sivir, Senna, Karthus ADC, Yuumi, Soraka.
+    Pro mains / streamers: varies.
+    Pick when: comp can protect scaling carry, late game priority.
+
+Sona:
+  profile: |
+    Sona Maven of the Strings. Support enchanter with aura buffs.
+    Identity: aura-stacking enchanter, R AOE stun, simple kit beginner-friendly.
+    Strengths: aura buffs, R AOE stun, lane sustain.
+    Weaknesses: low range, no mobility, squishy.
+    Scaling: scales with utility items.
+    Power spikes: level 6 (R), Moonstone Renewer, Ardent Censer.
+    Key items: Moonstone Renewer, Ardent Censer, Staff of Flowing Water, Mikael's Blessing.
+    Counters: Leona, Nautilus, Pyke, Blitzcrank, Thresh.
+    Counters to: Senna, Sona, Yuumi, Lulu, Karma.
+    Pro mains / streamers: varies.
+    Pick when: ADC needs aura sustain, comp can engage for R follow-up.
+
+Soraka:
+  profile: |
+    Soraka the Starchild. Support enchanter with global heal.
+    Identity: HP-cost healing enchanter, R global heal, silence.
+    Strengths: best healing in the game, global save via R, lane sustain.
+    Weaknesses: squishy, no engage, weak vs heavy CC.
+    Scaling: scales with utility items.
+    Power spikes: level 6 (R), Moonstone Renewer.
+    Key items: Moonstone Renewer, Ardent Censer, Staff of Flowing Water, Mikael's Blessing.
+    Counters: Leona, Nautilus, Pyke, Blitzcrank, Thresh.
+    Counters to: Senna, Sona, Yuumi, Lulu, Karma.
+    Pro mains / streamers: varies.
+    Pick when: comp needs sustain, ADC has poke kit (Caitlyn, Ezreal).
+
+Swain:
+  profile: |
+    Swain the Noxian Grand General. Mid or support mage.
+    Identity: soul-collecting mage, R AOE drain, root pull.
+    Strengths: AOE damage, sustain via R drain, lane bully.
+    Weaknesses: skillshot-reliant, immobile, mana issues.
+    Scaling: scales with full AP items into mid-late.
+    Power spikes: level 6 (R), Liandry's Torment, Rabadon's Deathcap.
+    Key items: Liandry's Torment, Rylai's Crystal Scepter, Rabadon's Deathcap, Zhonya's Hourglass.
+    Counters: Yasuo, Talon, Zed, LeBlanc, Kassadin.
+    Counters to: Garen, Renekton, Lux, Vex, Karma.
+    Pro mains / streamers: varies.
+    Pick when: comp needs AOE mage with sustain and CC.
+
+Sylas:
+  profile: |
+    Sylas the Unshackled. Mid lane AP bruiser with R steal.
+    Identity: ult-stealing AP bruiser, dash chain, sustain via Q.
+    Strengths: R adapts to enemy comp, snowball threat, sustain.
+    Weaknesses: weak laning vs ranged mages, item-dependent.
+    Scaling: scales with AP fighter items into mid-late.
+    Power spikes: level 6 (R steal), Riftmaker, level 11.
+    Key items: Riftmaker, Sterak's Gage, Cosmic Drive, Zhonya's Hourglass.
+    Counters: Lissandra, Annie, Pantheon, Diana, Galio.
+    Counters to: Lux, Vex, Twisted Fate, Karthus mid, Veigar.
+    Pro mains / streamers: ShowMaker, Caps.
+    Pick when: enemy has strong R you want to steal, comp needs AP bruiser.
+
+Syndra:
+  profile: |
+    Syndra the Dark Sovereign. Mid lane mage with sphere kit.
+    Identity: sphere-stacking mage, R single-target burst, AOE stun.
+    Strengths: burst via R, AOE stun, lane bully.
+    Weaknesses: skillshot-reliant, mana issues, immobile.
+    Scaling: scales with full AP items into mid-late.
+    Power spikes: level 6 (R), Luden's Companion, Rabadon's Deathcap.
+    Key items: Luden's Companion, Shadowflame, Rabadon's Deathcap, Zhonya's Hourglass.
+    Counters: Yasuo, Talon, Zed, LeBlanc, Kassadin.
+    Counters to: Garen, Renekton, Lux, Vex, Karma.
+    Pro mains / streamers: Faker.
+    Pick when: enemy mid is squishy, comp needs burst mage with AOE stun.
+
+Tahm Kench:
+  profile: |
+    Tahm Kench the River King. Top or support tank with eat mechanic.
+    Identity: stack-tongue tank, R global save, eat-and-spit utility.
+    Strengths: R global save ally, lane bully, sustain via stacks.
+    Weaknesses: kited by ranged, mana issues, slow.
+    Scaling: scales with HP and tank items.
+    Power spikes: level 6 (R), Heartsteel, level 11.
+    Key items: Heartsteel, Sunfire Aegis, Thornmail, Force of Nature.
+    Counters: Vayne, Quinn, Teemo, Gangplank, Vladimir.
+    Counters to: Yasuo, Yone, Riven, Aatrox, Akali.
+    Pro mains / streamers: varies.
+    Pick when: comp has carry that needs save utility, you want flex top-support tank.
+
+Taliyah:
+  profile: |
+    Taliyah the Stoneweaver. Mid or jungle mage with terrain manipulation.
+    Identity: rock-throwing mage, R wall, lane bully ranged poke.
+    Strengths: ranged poke, R wall utility, snowball threat.
+    Weaknesses: mana issues, immobile, item-dependent.
+    Scaling: scales with full AP items.
+    Power spikes: level 6 (R), Liandry's Torment, Rabadon's Deathcap.
+    Key items: Liandry's Torment, Rabadon's Deathcap, Zhonya's Hourglass, Cosmic Drive.
+    Counters: Yasuo, Talon, Zed, LeBlanc, Kassadin.
+    Counters to: Garen, Lux, Vex, Twisted Fate, Veigar.
+    Pro mains / streamers: Faker.
+    Pick when: comp needs ranged poke mage with utility wall.
+
+Talon:
+  profile: |
+    Talon the Blade's Shadow. Mid lane AD assassin with wall jump.
+    Identity: wall-jumping AD assassin, R invisibility, snowball threat.
+    Strengths: target access via walls, snowball threat, lane bully.
+    Weaknesses: weak vs ranged mages, falls off late, no escape vs vision.
+    Scaling: power-pick early to mid, falls off late.
+    Power spikes: level 6 (R), Eclipse, level 11.
+    Key items: Eclipse, Edge of Night, Youmuu's Ghostblade, Serylda's Grudge.
+    Counters: Galio, Pantheon, Lissandra, Annie, Malzahar.
+    Counters to: Lux, Vex, Twisted Fate, Karthus mid, Veigar.
+    Pro mains / streamers: varies.
+    Pick when: enemy mid is squishy and immobile, you want roaming assassin.
+
+Taric:
+  profile: |
+    Taric the Shield of Valoran. Support tank with R AOE invulnerability.
+    Identity: passive-AA-empower tank, R AOE invulnerability, stun chain.
+    Strengths: R unique AOE invulnerability, lane bully, AA empowerment.
+    Weaknesses: low mobility, mana issues, immobile.
+    Scaling: scales with tank items.
+    Power spikes: level 6 (R), Locket of the Iron Solari.
+    Key items: Locket of the Iron Solari, Knight's Vow, Zeke's Convergence, Thornmail.
+    Counters: Janna, Lulu, Soraka, Karma, Morgana.
+    Counters to: Senna, Sona, Yuumi, Lulu, Karma.
+    Pro mains / streamers: varies.
+    Pick when: comp clumps in teamfights for R AOE save.
+
+Teemo:
+  profile: |
+    Teemo the Swift Scout. Top lane ranged AP fighter.
+    Identity: invisible-shroom AP fighter, ranged poke, lane bully.
+    Strengths: lane bully vs melee, R shroom map control, ranged poke.
+    Weaknesses: low range vs other ranged tops, weak in extended fights.
+    Scaling: scales with AP fighter items.
+    Power spikes: level 6 (R shroom), Liandry's Torment, Nashor's Tooth.
+    Key items: Liandry's Torment, Nashor's Tooth, Rabadon's Deathcap, Sorcerer's Shoes.
+    Counters: Vladimir, Cassiopeia, Karthus, Quinn, Heimerdinger.
+    Counters to: Aatrox, Garen, Mordekaiser, Yasuo, Yone.
+    Pro mains / streamers: varies.
+    Pick when: enemy top is melee bruiser, you want anti-melee lane bully.
+
+Thresh:
+  profile: |
+    Thresh the Chain Warden. Support tank with hook and lantern.
+    Identity: hook-and-lantern engage, R AOE wall, soul-collecting passive.
+    Strengths: hook engage, lantern save utility, R AOE setup.
+    Weaknesses: weak if hooks miss, kited by ranged, low damage.
+    Scaling: scales steadily with hooks and souls.
+    Power spikes: level 6 (R), Locket of the Iron Solari.
+    Key items: Locket of the Iron Solari, Knight's Vow, Zeke's Convergence, Thornmail.
+    Counters: Janna, Lulu, Morgana, Soraka, Karma.
+    Counters to: Senna, Sona, Yuumi, Lulu, Karma.
+    Pro mains / streamers: CoreJJ, Mikyx.
+    Pick when: ADC has all-in potential, comp needs pick support with utility.
+
+Tristana:
+  profile: |
+    Tristana the Yordle Gunner. ADC marksman with jump and AS scaling.
+    Identity: jump-and-shoot ADC, R AOE knockback, range-stacking passive.
+    Strengths: lane bully, snowball threat, late-game scaler.
+    Weaknesses: short range early, no mobility outside W.
+    Scaling: scales with crit and AS items.
+    Power spikes: level 6 (R), 2-item crit spike, level 11.
+    Key items: Kraken Slayer, Phantom Dancer, Infinity Edge, Lord Dominik's Regards.
+    Counters: Caitlyn, Aphelios, Varus, Vayne, Smolder.
+    Counters to: Senna, Sivir, Karthus ADC, Soraka, Yuumi.
+    Pro mains / streamers: varies.
+    Pick when: comp needs all-in ADC with snowball lane.
+
+Trundle:
+  profile: |
+    Trundle the Troll King. Top or jungle bruiser with stat steal.
+    Identity: pillar-troll bruiser, R steals enemy stats, sustain.
+    Strengths: 1v1 dominance via R, lane bully, late-game scaler.
+    Weaknesses: kited by ranged, item-dependent, no escape.
+    Scaling: scales with bruiser items into late.
+    Power spikes: level 6 (R), Sundered Sky, level 11.
+    Key items: Sundered Sky, Sterak's Gage, Death's Dance, Trinity Force.
+    Counters: Vayne, Quinn, Teemo, Gnar, Vladimir.
+    Counters to: Aatrox, Garen, Mordekaiser, Sett, Cho'Gath.
+    Pro mains / streamers: varies.
+    Pick when: enemy comp has carry tank you can drain via R.
+
+Tryndamere:
+  profile: |
+    Tryndamere the Barbarian King. Top lane fury fighter with R undying.
+    Identity: rage-stacking fighter, R undying for 5s, snowball threat.
+    Strengths: R undying clutch, lane bully, late-game duelist.
+    Weaknesses: kited by CC, no mobility outside E, item-dependent.
+    Scaling: scales with crit items into late.
+    Power spikes: level 6 (R), Bloodthirster, level 11.
+    Key items: Bloodthirster, Infinity Edge, Phantom Dancer, Sterak's Gage.
+    Counters: Malphite, Pantheon, Renekton, Garen, Singed.
+    Counters to: Aatrox, Garen, Mordekaiser, Yasuo, Yone.
+    Pro mains / streamers: varies.
+    Pick when: comp needs split-pusher with undying clutch potential.
+
+Twisted Fate:
+  profile: |
+    Twisted Fate the Card Master. Mid lane mage with global ult.
+    Identity: card-throwing mage, R global teleport, gold passive.
+    Strengths: R global pressure, gold passive, ranged poke.
+    Weaknesses: weak vs assassins, no escape outside W, mana issues.
+    Scaling: scales with full AP items.
+    Power spikes: level 6 (R global), Luden's Companion, Rabadon's Deathcap.
+    Key items: Luden's Companion, Shadowflame, Rabadon's Deathcap, Zhonya's Hourglass.
+    Counters: Yasuo, Talon, Zed, LeBlanc, Fizz.
+    Counters to: Garen, Renekton, Lux, Veigar, Heimerdinger.
+    Pro mains / streamers: Faker, Caps.
+    Pick when: comp needs global side-lane pressure mage.
+
+Twitch:
+  profile: |
+    Twitch the Plague Rat. ADC marksman with stealth and AOE ult.
+    Identity: stealth-stalking ADC, R AOE pierce, on-hit DPS.
+    Strengths: AOE damage, stealth flank, late-game hypercarry.
+    Weaknesses: weak laning, no mobility, item-dependent.
+    Scaling: monstrous late-game hyperscaler.
+    Power spikes: 2-item crit+lifesteal spike.
+    Key items: Kraken Slayer, Runaan's Hurricane, Infinity Edge, Bloodthirster.
+    Counters: Draven, Lucian, Tristana, Samira, Vayne.
+    Counters to: Sivir, Senna, Karthus ADC, Soraka, Yuumi.
+    Pro mains / streamers: varies.
+    Pick when: comp can protect hypercarry, AOE teamfight ADC priority.
+
+Udyr:
+  profile: |
+    Udyr the Spirit Walker. Jungle bruiser with stance kit.
+    Identity: stance-cycling bruiser, no R (stance ult), sustained damage.
+    Strengths: 1v1 dominance, sustained damage, simple kit.
+    Weaknesses: weak vs CC, no mobility outside Q, item-dependent.
+    Scaling: scales with bruiser items into mid-late.
+    Power spikes: Trinity Force, level 11.
+    Key items: Trinity Force, Sterak's Gage, Wit's End, Blade of the Ruined King.
+    Counters: Karthus jungle, Lee Sin, Diana, Brand jungle, Lillia.
+    Counters to: Master Yi, Yasuo, Yone, Riven, Aatrox.
+    Pro mains / streamers: Trick2g.
+    Pick when: comp needs simple bruiser jungler with snowball potential.
+
+Urgot:
+  profile: |
+    Urgot the Dreadnought. Top lane juggernaut with execute ult.
+    Identity: shotgun-leg juggernaut, R fear-execute, lane bully.
+    Strengths: lane bully, R execute, snowball threat, sustained damage.
+    Weaknesses: kited by ranged, no mobility, slow.
+    Scaling: scales with bruiser items.
+    Power spikes: level 6 (R), Black Cleaver, level 11.
+    Key items: Black Cleaver, Sterak's Gage, Death's Dance, Plated Steelcaps.
+    Counters: Vayne, Quinn, Teemo, Gnar, Vladimir.
+    Counters to: Aatrox, Garen, Mordekaiser, Yasuo, Yone.
+    Pro mains / streamers: varies.
+    Pick when: enemy top is melee bruiser, comp needs anti-tank execute.
+
+Varus:
+  profile: |
+    Varus the Arrow of Retribution. ADC marksman with poke kit.
+    Identity: charged-arrow ADC, R AOE root, lethality or AS scaling.
+    Strengths: ranged poke, R AOE chain root, snowball threat.
+    Weaknesses: no mobility, weak in extended fights.
+    Scaling: scales with lethality or on-hit items.
+    Power spikes: level 6 (R), 2-item lethality+crit or AS spike.
+    Key items: Eclipse + Black Cleaver (lethality) or Kraken Slayer + Wit's End (on-hit).
+    Counters: Caitlyn, Aphelios, Tristana, Samira, Vayne.
+    Counters to: Senna, Sona, Yuumi, Karthus ADC, Soraka.
+    Pro mains / streamers: Doublelift.
+    Pick when: comp needs ranged poke ADC with R chain CC.
+
+Vayne:
+  profile: |
+    Vayne the Night Hunter. ADC or top lane marksman with true damage.
+    Identity: true-damage hyperscaler, R stealth on dash, late-game monster.
+    Strengths: true damage shreds tanks, late-game hyperscaler, stealth.
+    Weaknesses: weak laning, short range, no escape pre-items.
+    Scaling: monstrous late-game hyperscaler.
+    Power spikes: 2-item crit spike, level 11.
+    Key items: Blade of the Ruined King, Phantom Dancer, Infinity Edge, Bloodthirster.
+    Counters: Draven, Lucian, Caitlyn, Samira, Smolder.
+    Counters to: Sivir, Senna, Karthus ADC, Aphelios early, Soraka.
+    Pro mains / streamers: Doublelift, Sneaky.
+    Pick when: comp needs anti-tank hypercarry, late game priority.
+
+Veigar:
+  profile: |
+    Veigar the Tiny Master of Evil. Mid lane stack-AP mage.
+    Identity: AP-stacking late-game scaler, R single-target burst, AOE cage.
+    Strengths: infinite AP scaling, late-game one-shot, AOE cage.
+    Weaknesses: weak laning vs aggro, immobile, item-dependent.
+    Scaling: monstrous late-game scaler.
+    Power spikes: 100+ AP stacks, Rabadon's Deathcap, level 11.
+    Key items: Rabadon's Deathcap, Shadowflame, Zhonya's Hourglass, Sorcerer's Shoes.
+    Counters: Yasuo, Talon, Zed, LeBlanc, Kassadin.
+    Counters to: Garen, Renekton, Lux, Karma, Heimerdinger.
+    Pro mains / streamers: varies.
+    Pick when: comp can protect scaling mage, late game one-shot priority.
+
+Vel'Koz:
+  profile: |
+    Vel'Koz the Eye of the Void. Mid or support mage with R laser.
+    Identity: skillshot-deconstruct mage, R channeled laser, true damage stacks.
+    Strengths: ranged poke, R AOE damage, true damage on stacks.
+    Weaknesses: skillshot-reliant, immobile, mana issues.
+    Scaling: scales with full AP items.
+    Power spikes: level 6 (R), Liandry's Torment, Rabadon's Deathcap.
+    Key items: Liandry's Torment, Rabadon's Deathcap, Zhonya's Hourglass, Sorcerer's Shoes.
+    Counters: Yasuo, Talon, Zed, LeBlanc, Kassadin.
+    Counters to: Garen, Renekton, Lux, Vex, Karma.
+    Pro mains / streamers: varies.
+    Pick when: comp needs ranged poke mage, vs immobile enemies.
+
+Vex:
+  profile: |
+    Vex the Gloomist. Mid lane anti-mobility mage.
+    Identity: dash-punishing mage, R reset on takedown, AOE fear.
+    Strengths: anti-dash kit (E), R reset potential, AOE damage.
+    Weaknesses: weak vs immobile mages, mana issues, item-dependent.
+    Scaling: scales with full AP items.
+    Power spikes: level 6 (R), Luden's Companion, Rabadon's Deathcap.
+    Key items: Luden's Companion, Shadowflame, Rabadon's Deathcap, Zhonya's Hourglass.
+    Counters: Lux, Vex, Twisted Fate, Veigar, Heimerdinger.
+    Counters to: Yasuo, Yone, Akali, Katarina, LeBlanc.
+    Pro mains / streamers: varies.
+    Pick when: enemy comp has mobile assassins, you need anti-dash mage.
+
+Vi:
+  profile: |
+    Vi the Piltover Enforcer. Jungle bruiser with R point-and-click.
+    Identity: punch-charging bruiser, R point-and-click target lock, snowball.
+    Strengths: target access via R, snowball threat, kit synergy.
+    Weaknesses: weak laning, no escape, falls off late.
+    Scaling: power-pick early to mid, falls off late.
+    Power spikes: level 6 (R), Black Cleaver, level 11.
+    Key items: Black Cleaver, Sterak's Gage, Death's Dance, Trinity Force.
+    Counters: Master Yi, Diana, Karthus jungle, Olaf, Lillia.
+    Counters to: Lux, Vex, Heimerdinger, Karma, Lulu.
+    Pro mains / streamers: varies.
+    Pick when: enemy has carry mid you can isolate via R.
+
+Viego:
+  profile: |
+    Viego the Ruined King. Jungle AD assassin with possession.
+    Identity: possession-on-takedown assassin, R execute reset, sustain.
+    Strengths: possession outplay, R execute reset, snowball threat.
+    Weaknesses: weak vs heavy CC, no escape, item-dependent.
+    Scaling: scales with bruiser-AD items.
+    Power spikes: level 6 (R), Eclipse, level 11.
+    Key items: Eclipse, Sundered Sky, Sterak's Gage, Death's Dance.
+    Counters: Master Yi, Diana, Karthus jungle, Olaf, Lillia.
+    Counters to: Yasuo, Yone, Riven, Aatrox, Akali.
+    Pro mains / streamers: varies.
+    Pick when: comp needs assassin jungler with possession outplay.
+
+Viktor:
+  profile: |
+    Viktor the Machine Herald. Mid lane mage with augments.
+    Identity: augment-evolving mage, R AOE damage zone, lane bully.
+    Strengths: AOE damage, lane bully, scaling potential.
+    Weaknesses: skillshot-reliant, mana issues, immobile.
+    Scaling: scales with full AP items.
+    Power spikes: level 6 (R), Liandry's Torment, Rabadon's Deathcap.
+    Key items: Liandry's Torment, Rabadon's Deathcap, Zhonya's Hourglass, Cosmic Drive.
+    Counters: Yasuo, Talon, Zed, LeBlanc, Kassadin.
+    Counters to: Garen, Renekton, Lux, Vex, Karma.
+    Pro mains / streamers: ShowMaker, Caps.
+    Pick when: comp needs AOE mage with scaling damage.
+
+Vladimir:
+  profile: |
+    Vladimir the Crimson Reaper. Top or mid AP fighter.
+    Identity: blood-pool fighter, R AOE damage amp, scaling carry.
+    Strengths: lane sustain via Q, R AOE amp, late-game scaler.
+    Weaknesses: weak early, mana-less but HP-cost, item-dependent.
+    Scaling: scales hard with AP-fighter items.
+    Power spikes: level 6 (R), Riftmaker, level 11.
+    Key items: Riftmaker, Rabadon's Deathcap, Zhonya's Hourglass, Spirit Visage.
+    Counters: Pantheon, Renekton, Garen, Tryndamere, Darius.
+    Counters to: Aatrox, Mordekaiser, Sett, Yasuo, Yone.
+    Pro mains / streamers: varies.
+    Pick when: comp needs late-game AP scaler with sustain.
+
+Volibear:
+  profile: |
+    Volibear the Relentless Storm. Top or jungle bruiser.
+    Identity: lightning-charging bruiser, R AOE damage, lane bully.
+    Strengths: lane bully, R AOE damage, snowball threat.
+    Weaknesses: kited by ranged, no escape, falls off late.
+    Scaling: scales with bruiser items.
+    Power spikes: level 6 (R), Sundered Sky, level 11.
+    Key items: Sundered Sky, Sterak's Gage, Death's Dance, Trinity Force.
+    Counters: Vayne, Quinn, Teemo, Gnar, Vladimir.
+    Counters to: Aatrox, Garen, Mordekaiser, Yasuo, Yone.
+    Pro mains / streamers: Trick2g, Tyler1.
+    Pick when: enemy top is melee bruiser, comp needs simple snowball top.
+
+Warwick:
+  profile: |
+    Warwick the Uncaged Wrath of Zaun. Jungle bruiser with R global ult.
+    Identity: blood-stalking bruiser, R global suppression, sustain via Q.
+    Strengths: R global engage, sustain, simple kit.
+    Weaknesses: weak ganks pre-6, kited by ranged.
+    Scaling: scales with bruiser items.
+    Power spikes: level 6 (R), Sundered Sky, level 11.
+    Key items: Sundered Sky, Sterak's Gage, Wit's End, Blade of the Ruined King.
+    Counters: Master Yi, Diana, Karthus jungle, Olaf, Lillia.
+    Counters to: Lux, Vex, Heimerdinger, Karma, Lulu.
+    Pro mains / streamers: varies.
+    Pick when: comp needs simple snowball jungler with global engage.
+
+Wukong:
+  profile: |
+    Wukong the Monkey King. Top or jungle bruiser with clone.
+    Identity: clone-stealth bruiser, R AOE knockup spin, snowball threat.
+    Strengths: AOE knockup engage, clone outplay, snowball threat.
+    Weaknesses: weak laning vs ranged, item-dependent.
+    Scaling: scales with bruiser items.
+    Power spikes: level 6 (R), Black Cleaver, level 11.
+    Key items: Black Cleaver, Sterak's Gage, Death's Dance, Trinity Force.
+    Counters: Vayne, Quinn, Teemo, Gnar, Fiora.
+    Counters to: Aatrox, Garen, Mordekaiser, Yasuo, Yone.
+    Pro mains / streamers: varies.
+    Pick when: comp clumps in teamfights, you want AOE engage bruiser.
+
+Xayah:
+  profile: |
+    Xayah the Rebel. ADC marksman with feather kit (Rakan's lover).
+    Identity: feather-stacking ADC, R untargetable spike, lane synergy with Rakan.
+    Strengths: untargetable R clutch, AOE damage, lane synergy with Rakan.
+    Weaknesses: short range, no mobility outside R, weak post-laning.
+    Scaling: scales with crit items.
+    Power spikes: level 6 (R), 2-item crit spike.
+    Key items: Yun Tal Wildarrows, Phantom Dancer, Infinity Edge, Lord Dominik's Regards.
+    Counters: Caitlyn, Aphelios, Varus, Smolder, Draven.
+    Counters to: Senna, Sona, Yuumi, Karthus ADC, Soraka.
+    Pro mains / streamers: varies.
+    Pick when: comp needs AOE ADC with untargetable clutch, paired with Rakan ideal.
+
+Xerath:
+  profile: |
+    Xerath the Magus Ascendant. Mid lane artillery mage.
+    Identity: long-range artillery mage, R global skillshots, ranged poke.
+    Strengths: longest range poke, R global ult, lane bully.
+    Weaknesses: skillshot-reliant, no escape, mana issues.
+    Scaling: scales with full AP items.
+    Power spikes: level 6 (R), Liandry's Torment, Rabadon's Deathcap.
+    Key items: Liandry's Torment, Rabadon's Deathcap, Zhonya's Hourglass, Sorcerer's Shoes.
+    Counters: Yasuo, Talon, Zed, LeBlanc, Kassadin.
+    Counters to: Garen, Renekton, Lux, Vex, Karma.
+    Pro mains / streamers: varies.
+    Pick when: comp needs long-range artillery, you can land skillshots.
+
+Xin Zhao:
+  profile: |
+    Xin Zhao the Seneschal of Demacia. Jungle bruiser with R isolation.
+    Identity: spear-charging bruiser, R AOE knockback isolation, sustain.
+    Strengths: R 1v1 isolation, lane bully, snowball threat.
+    Weaknesses: kited by ranged, no escape, item-dependent.
+    Scaling: scales with bruiser items.
+    Power spikes: level 6 (R), Black Cleaver, level 11.
+    Key items: Black Cleaver, Sterak's Gage, Death's Dance, Trinity Force.
+    Counters: Master Yi, Diana, Karthus jungle, Olaf, Lillia.
+    Counters to: Yasuo, Yone, Riven, Aatrox, Akali.
+    Pro mains / streamers: varies.
+    Pick when: comp needs 1v1 jungler with isolation potential.
+
+Yasuo:
+  profile: |
+    Yasuo the Unforgiven. Mid lane mechanically intensive skirmisher with crit on melee.
+    Identity: outplay assassin-fighter hybrid, dash spam, windwall projectile denial, knockup combos.
+    Strengths: high outplay potential, free crit passive, scales hard with crit items.
+    Weaknesses: hard counters tilt him entirely, no mana but cooldown-locked, weak vs poke.
+    Scaling: weak level 1-2, online at 6 with R, two-shot crit two-item spike.
+    Power spikes: level 6 (R), 2-item crit spike (IE + Phantom Dancer or equivalent).
+    Key items: Immortal Shieldbow, Infinity Edge, Phantom Dancer, Bloodthirster.
+    Counters: Malphite, Renekton, Pantheon, Annie, Lissandra.
+    Counters to: Zed, Akali, Talon, LeBlanc, Karthus.
+    Pro mains / streamers: xFSN Saber, Yassuo (Moe).
+    Pick when: comp has knockups for R synergy (Malphite, Alistar, Sejuani, Wukong).
+
+Yone:
+  profile: |
+    Yone the Unforgotten. Mid or top lane skirmisher with dual swords.
+    Identity: spirit-form skirmisher (Yasuo's brother), R AOE knockup, mixed AD-magic damage.
+    Strengths: outplay potential, mobility, AOE knockup R, snowball threat.
+    Weaknesses: hard counters destroy him, item-dependent, weak vs poke.
+    Scaling: scales with crit items into late.
+    Power spikes: level 6 (R), 2-item crit spike (IE + Phantom Dancer), level 11.
+    Key items: Immortal Shieldbow, Infinity Edge, Phantom Dancer, Bloodthirster.
+    Counters: Malphite, Renekton, Pantheon, Annie, Lissandra.
+    Counters to: Zed, Akali, Talon, LeBlanc, Karthus.
+    Pro mains / streamers: xFSN Saber, Yassuo (Moe).
+    Pick when: comp has knockups for R synergy, mid or top flex needed.
+
+Yorick:
+  profile: |
+    Yorick Shepherd of Souls. Top lane juggernaut with ghoul minions.
+    Identity: ghoul-summoning juggernaut, R Maiden split-pusher, lane bully.
+    Strengths: split-pushing dominance, lane bully, ghoul DPS.
+    Weaknesses: kited by ranged, no escape, falls off in teamfights.
+    Scaling: scales with bruiser items.
+    Power spikes: level 6 (R Maiden), Trinity Force, level 11.
+    Key items: Trinity Force, Sterak's Gage, Death's Dance, Black Cleaver.
+    Counters: Vayne, Quinn, Teemo, Gnar, Fiora.
+    Counters to: Aatrox, Garen, Mordekaiser, Yasuo, Yone.
+    Pro mains / streamers: Tyler1.
+    Pick when: comp needs split-pusher with ghoul pressure.
+
+Yunara:
+  profile: |
+    Yunara. Mid or top lane fighter with mobility kit.
+    Identity: dash-spam fighter with AOE damage and outplay potential.
+    Strengths: mobility, snowball threat, lane bully.
+    Weaknesses: item-dependent, vulnerable to hard CC.
+    Scaling: scales with fighter items into mid-late.
+    Power spikes: level 6 (R), 2-item spike, level 11.
+    Key items: Eclipse, Sterak's Gage, Death's Dance, Black Cleaver.
+    Counters: Malphite, Renekton, Pantheon, Sett, Annie.
+    Counters to: Yasuo, Yone, Akali, LeBlanc, Karthus.
+    Pro mains / streamers: varies.
+    Pick when: comp needs mobile fighter with outplay potential.
+
+Yuumi:
+  profile: |
+    Yuumi the Magical Cat. Support enchanter with attach mechanic.
+    Identity: untargetable-attached enchanter, R AOE root, peel for ADC.
+    Strengths: untargetable while attached, sustain, AS buff for ADC.
+    Weaknesses: low damage, no engage, weak vs heavy CC focusing carry.
+    Scaling: scales with utility items.
+    Power spikes: level 6 (R), Moonstone Renewer.
+    Key items: Moonstone Renewer, Ardent Censer, Staff of Flowing Water, Mikael's Blessing.
+    Counters: Leona, Nautilus, Pyke, Blitzcrank, Thresh.
+    Counters to: Senna, Sona, Soraka, Lulu, Karma.
+    Pro mains / streamers: varies.
+    Pick when: ADC is hyper-carry that needs sustain and AS buff.
+
+Zaahen:
+  profile: |
+    Zaahen. Mid or jungle assassin with mobility kit.
+    Identity: dash-engage assassin with AOE burst and outplay potential.
+    Strengths: mobility, snowball threat, target access.
+    Weaknesses: item-dependent, weak vs heavy CC.
+    Scaling: scales with assassin items into mid-late.
+    Power spikes: level 6 (R), 2-item spike, level 11.
+    Key items: Eclipse, Edge of Night, Youmuu's Ghostblade, Serylda's Grudge.
+    Counters: Galio, Pantheon, Lissandra, Annie, Malzahar.
+    Counters to: Lux, Vex, Twisted Fate, Karthus mid, Veigar.
+    Pro mains / streamers: varies.
+    Pick when: enemy mid is squishy, you want assassin with mobility kit.
+
+Zac:
+  profile: |
+    Zac the Secret Weapon. Jungle tank with goo passive.
+    Identity: stretchy-AOE tank, R AOE knockback, blob revive passive.
+    Strengths: AOE engage, R teamfight setup, sustain via passive.
+    Weaknesses: weak ganks pre-6, kited by ranged, slow.
+    Scaling: scales with tank items.
+    Power spikes: level 6 (R), Sunfire Aegis, level 11.
+    Key items: Sunfire Aegis, Heartsteel, Thornmail, Force of Nature.
+    Counters: Karthus jungle, Lee Sin, Diana, Brand jungle, Lillia.
+    Counters to: Yasuo, Yone, Riven, Aatrox, Akali.
+    Pro mains / streamers: varies.
+    Pick when: comp needs AOE tank engage from jungle.
+
+Zed:
+  profile: |
+    Zed Master of Shadows. Mid lane AD assassin with shadow clones.
+    Identity: shadow-swap assassin, R untargetable mark, snowball threat.
+    Strengths: target access via shadows, snowball threat, lane bully.
+    Weaknesses: weak vs ranged mages, falls off late, no escape vs vision.
+    Scaling: power-pick early to mid, falls off late.
+    Power spikes: level 6 (R), Eclipse, level 11.
+    Key items: Eclipse, Edge of Night, Youmuu's Ghostblade, Serylda's Grudge.
+    Counters: Galio, Pantheon, Lissandra, Annie, Malzahar.
+    Counters to: Lux, Vex, Twisted Fate, Karthus mid, Veigar.
+    Pro mains / streamers: Faker.
+    Pick when: enemy mid is squishy and immobile, you want carry assassin.
+
+Zeri:
+  profile: |
+    Zeri the Spark of Zaun. ADC marksman with movement-AA kit.
+    Identity: dash-shooting ADC, R AOE damage form, attack-on-the-move kit.
+    Strengths: mobility, kiting potential, AOE damage in R.
+    Weaknesses: short range, item-dependent, mana issues.
+    Scaling: scales with crit and AS items.
+    Power spikes: level 6 (R), 2-item crit spike.
+    Key items: Statikk Shiv, Phantom Dancer, Infinity Edge, Lord Dominik's Regards.
+    Counters: Caitlyn, Aphelios, Varus, Vayne, Smolder.
+    Counters to: Senna, Sona, Yuumi, Karthus ADC, Soraka.
+    Pro mains / streamers: varies.
+    Pick when: comp needs mobile ADC with kiting potential.
+
+Ziggs:
+  profile: |
+    Ziggs the Hexplosives Expert. Mid lane mage with bomb kit.
+    Identity: bomb-throwing mage, R global ult, lane bully ranged.
+    Strengths: ranged poke, R global execute, wave clear.
+    Weaknesses: skillshot-reliant, immobile, mana issues.
+    Scaling: scales with full AP items.
+    Power spikes: level 6 (R), Liandry's Torment, Rabadon's Deathcap.
+    Key items: Liandry's Torment, Luden's Companion, Rabadon's Deathcap, Zhonya's Hourglass.
+    Counters: Yasuo, Talon, Zed, LeBlanc, Kassadin.
+    Counters to: Garen, Renekton, Lux, Vex, Karma.
+    Pro mains / streamers: varies.
+    Pick when: comp needs ranged poke mage with wave clear.
+
+Zilean:
+  profile: |
+    Zilean the Chronokeeper. Mid or support mage with R revive.
+    Identity: time-bomb mage, R revive ally, slow-and-stun combo.
+    Strengths: R revive utility, slow-stun CC, late-game scaler.
+    Weaknesses: low damage, immobile, mana issues.
+    Scaling: scales with utility-AP items.
+    Power spikes: level 6 (R), Liandry's Torment, Rabadon's Deathcap.
+    Key items: Liandry's Torment, Rabadon's Deathcap, Zhonya's Hourglass, Sorcerer's Shoes.
+    Counters: Yasuo, Talon, Zed, LeBlanc, Kassadin.
+    Counters to: Garen, Renekton, Lux, Vex, Karma.
+    Pro mains / streamers: varies.
+    Pick when: comp has carry that needs revive insurance.
+
+Zoe:
+  profile: |
+    Zoe Aspect of Twilight. Mid lane mage with sleep bubble.
+    Identity: sleep-bubble assassin-mage, R blink, snowball threat.
+    Strengths: burst potential via E sleep, snowball threat, R blink utility.
+    Weaknesses: skillshot-reliant, item-dependent, weak vs assassins.
+    Scaling: scales with full AP items.
+    Power spikes: level 6 (R), Luden's Companion, Rabadon's Deathcap.
+    Key items: Luden's Companion, Shadowflame, Rabadon's Deathcap, Zhonya's Hourglass.
+    Counters: Yasuo, Talon, Zed, LeBlanc, Kassadin.
+    Counters to: Garen, Renekton, Lux, Karma, Heimerdinger.
+    Pro mains / streamers: varies.
+    Pick when: enemy mid is immobile, you want pick-burst mage.
+
+Zyra:
+  profile: |
+    Zyra Rise of the Thorns. Support mage with plant kit.
+    Identity: plant-summoning mage, R AOE knockup, lane bully.
+    Strengths: AOE damage, R teamfight setup, plant pressure.
+    Weaknesses: skillshot-reliant, immobile, no escape.
+    Scaling: scales with utility-AP items.
+    Power spikes: level 6 (R), Liandry's Torment, Rabadon's Deathcap.
+    Key items: Liandry's Torment, Rabadon's Deathcap, Sorcerer's Shoes, Zhonya's Hourglass.
+    Counters: Leona, Nautilus, Pyke, Blitzcrank, Thresh.
+    Counters to: Senna, Sona, Yuumi, Soraka, Lulu.
+    Pro mains / streamers: varies.
+    Pick when: comp needs AOE poke and setup support.

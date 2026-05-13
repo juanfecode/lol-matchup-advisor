@@ -10,9 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2026_03_18_162708) do
+ActiveRecord::Schema[7.2].define(version: 2026_05_07_032016) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+  enable_extension "vector"
 
   create_table "champions", force: :cascade do |t|
     t.string "name"
@@ -21,5 +22,6 @@ ActiveRecord::Schema[7.2].define(version: 2026_03_18_162708) do
     t.string "champion_id"
     t.string "title"
     t.string "image_url"
+    t.vector "embedding", limit: 1024
   end
 end

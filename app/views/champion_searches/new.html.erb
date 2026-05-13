@@ -1,0 +1,24 @@
+<div class="min-h-screen text-white py-12 px-6">
+  <div class="max-w-3xl mx-auto" data-controller="search-form">
+    <h1 class="text-4xl font-bold mb-2 text-[#eaca8b]">Champion Finder</h1>
+    <p class="text-gray-400 mb-8">Describe what you want and we'll find champions that match.</p>
+
+    <%= form_with url: champion_searches_path, method: :post,
+                  data: {
+                    turbo: true,
+                    action: "submit->search-form#showLoading"
+                  } do |f| %>
+      <%= f.text_area :query,
+            class: "w-full bg-[#151f34] border border-[#3c4a47] p-4 text-white placeholder-gray-500 focus:outline-none focus:border-[#eaca8b]",
+            rows: 3,
+            placeholder: "ej: ADC seguro con buen daño en late game" %>
+
+      <%= f.submit "Search",
+            data: { search_form_target: "button" },
+            class: "mt-4 bg-gradient-to-r from-[#eaca8b] to-[#cdaf72] text-[#081327] font-bold px-8 py-3 cursor-pointer hover:opacity-90 transition-opacity" %>
+    <% end %>
+
+    <div id="champion-search-result" data-search-form-target="result" class="mt-12">
+    </div>
+  </div>
+</div>

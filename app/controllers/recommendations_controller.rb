@@ -9,7 +9,7 @@ class RecommendationsController < ApplicationController
     Rails.logger.info "Cache key: #{cache_key}"
 
     @data = Rails.cache.fetch(cache_key, expires_in: 1.hour) do
-       Rails.logger.info "🔴 Cache MISS — llamando a Claude API"
+      Rails.logger.info "🔴 Cache MISS — llamando a Claude API"
       prompt = <<~PROMPT
         You are an expert League of Legends coach.
 
